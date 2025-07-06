@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250630.
+# Changes: Removed SMS from _compute_name
 from odoo.tools.json import scriptsafe as json_scriptsafe
 
 from odoo import api, exceptions, fields, models, _
@@ -36,7 +38,7 @@ class ServerAction(models.Model):
             rule_model = action.base_automation_id.model_id
             action.available_model_ids = rule_model.ids if rule_model in action.available_model_ids else []
 
-    @api.depends('state', 'update_field_id', 'crud_model_id', 'value', 'evaluation_type', 'template_id', 'partner_ids', 'activity_summary', 'sms_template_id', 'webhook_url')
+    @api.depends('state', 'update_field_id', 'crud_model_id', 'value', 'evaluation_type', 'template_id', 'partner_ids', 'activity_summary', 'webhook_url')
     def _compute_name(self):
         ''' Only server actions linked to a base_automation get an automatic name. '''
         to_update = self.filtered('base_automation_id')
@@ -53,11 +55,11 @@ class ServerAction(models.Model):
                     )
                 case 'webhook':
                     action.name = _("Send Webhook Notification")
-                case 'sms':
-                    action.name = _(
-                    'Send SMS: %(template_name)s',
-                    template_name=action.sms_template_id.name
-                )
+                # case 'sms':
+                #     action.name = _(
+                #     'Send SMS: %(template_name)s',
+                #     template_name=action.sms_template_id.name
+                # )
                 case 'mail_post':
                     action.name = _(
                         'Send email: %(template_name)s',

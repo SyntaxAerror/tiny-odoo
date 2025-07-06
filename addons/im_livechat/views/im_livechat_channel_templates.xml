@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Disabled/Removed Powered By Odoo message.
+-->
 <odoo>
     <data>
 
@@ -14,7 +19,6 @@
                 <head>
                     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <title><t t-esc="channel_name"/> Livechat Support Page</title>
 
                     <!-- Call the external Bundle to render the css, js, and js loader tags -->
@@ -62,13 +66,11 @@
                             text-shadow: 0 1px 0 rgba(34, 52, 72, 0.2);
                             text-align: center;
                         }
-                        .channel_name {
-                            font-size: clamp(2.5rem, 6vw, 3.5rem);
-                            overflow-wrap: break-word;
+                        .main h1 {
+                            font-size: 54px;
                         }
                         .main div {
                             font-style: italic;
-                            font-size: 1rem;
                         }
                     </style>
                 </head>
@@ -76,7 +78,7 @@
                 <body>
                      <div class="main" style="opacity: 1;">
                         <h1 class="channel_name"><t t-esc="channel.name"/></h1>
-                        <div>Website Live Chat Powered by <strong>Odoo</strong>.</div>
+                        <div>Website Live Chat.</div>
                     </div>
                 </body>
             </html>

@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
     <data>
 
@@ -114,7 +119,7 @@
                                         </kanban>
                                     </field>
                                     <p class="text-muted" colspan="2">
-                                        Operators that do not show any activity In Odoo for more than 30 minutes will be considered as disconnected.
+                                        Operators that do not show any activity for more than 30 minutes will be considered as disconnected.
                                     </p>
                             </page>
                             <page string="Options" name="options">
@@ -152,7 +157,7 @@
                                     <p>
                                         Learn how to display a live chat bubble on your website and start chatting with visitors in a few easy steps.
                                     </p>
-                                    <separator string="FOR WEBSITES BUILT WITH ODOO" />
+                                    <separator string="FOR WEBSITES BUILT WITH THIS SYSTEM" />
                                     <ol>
                                         <li>Go to <strong>Website</strong> > <strong>Configuration</strong> > <strong>Settings</strong> > <strong>Email</strong> &amp; <strong>Marketing.</strong></li>
                                         <li>Turn on the <strong>Live Chat</strong> feature.</li>
@@ -186,7 +191,9 @@
             </field>
         </record>
 
-        <!-- im_livechat.channel.rule -->
+        <!--
+im_livechat.channel.rule
+-->
         <record id="im_livechat_channel_rule_view_tree" model="ir.ui.view">
             <field name="name">im.livechat.channel.rule.list</field>
             <field name="model">im_livechat.channel.rule</field>
@@ -245,7 +252,9 @@
             </field>
         </record>
 
-        <!-- Menu items -->
+        <!--
+Menu items
+-->
         <menuitem
             id="menu_livechat_root"
             name="Live Chat"

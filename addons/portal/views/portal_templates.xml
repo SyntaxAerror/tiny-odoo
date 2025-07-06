@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Disabled/Removed Powered By Odoo message.
+-->
 <odoo>
     <template id="frontend_layout" name="Main Frontend Layout" inherit_id="web.frontend_layout">
         <xpath expr="//div[@id='wrapwrap']" position="attributes">
@@ -291,9 +296,9 @@
                     <t t-out="title"/>
                 </div>
                 <t t-if="entries" t-out="entries"/>
-                <div class="d-none d-lg-block mt-5 small text-center text-muted">
+                <!-- <div class="d-none d-lg-block mt-5 small text-center text-muted">
                     Powered by <a target="_blank" href="http://www.odoo.com?utm_source=db&amp;utm_medium=portal" title="odoo"><img src="/web/static/img/logo.png" alt="Odoo Logo" height="15"/></a>
-                </div>
+                </div> -->
             </div>
             <div class="vr d-none d-lg-block bg-300"/>
         </div>

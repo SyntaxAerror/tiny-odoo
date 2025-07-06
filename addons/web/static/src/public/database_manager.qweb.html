@@ -1,7 +1,14 @@
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Odoo</title>
+    <!--
+<title>Odoo</title>
+-->
     <link rel="shortcut icon" href="/web/static/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/web/static/src/libs/fontawesome/css/font-awesome.css" />
     <link rel="stylesheet" href="/web/static/lib/bootstrap/dist/css/bootstrap.css" />
@@ -27,7 +34,9 @@
 </head>
 <body>
     <div class="container">
-        <!-- Database List -->
+        <!--
+Database List
+-->
         <div class="row">
             <div class="col-lg-6 offset-lg-3 o_database_list">
                 <img src="/web/static/img/logo2.png" class="img-fluid d-block mx-auto"/>
@@ -36,7 +45,7 @@
                 </t>
                 <t t-elif="insecure and databases">
                     <div class="alert alert-warning">
-                        Warning, your Odoo database manager is not protected.<br/>
+                        Warning, your database manager is not protected.<br/>
                         Please <a href="#" data-bs-toggle="modal" data-bs-target=".o_database_master">set a master password</a> to secure it.
                     </div>
                 </t>
@@ -93,7 +102,9 @@
             </div>
         </div>
 
-        <!-- Create -->
+        <!--
+Create
+-->
         <div class="modal fade o_database_create" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -116,7 +127,9 @@
             </div>
         </div>
 
-        <!-- Restore -->
+        <!--
+Restore
+-->
         <div class="modal fade o_database_restore" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -147,7 +160,7 @@
                               </div>
                             <label for="radio_copy_true">This database might have been moved or copied.</label>
                             <p class="form-text">
-                                In order to avoid conflicts between databases, Odoo needs to know if this database was moved or copied.<br/>
+                                In order to avoid conflicts between databases, The system needs to know if this database was moved or copied.<br/>
                                 If you don't know, answer "This database is a copy".
                             </p>
                             <div class="form-check">
@@ -167,7 +180,9 @@
             </div>
         </div>
 
-        <!-- Master password -->
+        <!--
+Master password
+-->
         <div class="modal fade o_database_master" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -198,7 +213,9 @@
             </div>
         </div>
 
-        <!-- Duplicate DB -->
+        <!--
+Duplicate DB
+-->
         <div class="modal fade o_database_duplicate" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -237,7 +254,9 @@
             </div>
         </div>
 
-        <!-- Drop DB -->
+        <!--
+Drop DB
+-->
         <div class="modal fade o_database_delete" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -263,7 +282,9 @@
             </div>
         </div>
 
-        <!-- Backup DB -->
+        <!--
+Backup DB
+-->
         <div class="modal fade o_database_backup" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">

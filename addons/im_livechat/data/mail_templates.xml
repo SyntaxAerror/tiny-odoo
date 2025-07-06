@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Disabled/Removed Powered By Odoo message.
+-->
 <odoo>
     <data noupdate="1">
         <template id="livechat_email_template">
@@ -89,9 +94,9 @@
 </table>
 </td></tr>
 <!-- POWERED BY -->
-<tr><td align="center" style="min-width: 590px;">
+<!-- <tr><td align="center" style="min-width: 590px;">
         Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
-</td></tr>
+</td></tr> -->
 </table>
         </template>
     </data>

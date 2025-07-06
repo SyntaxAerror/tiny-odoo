@@ -1,5 +1,9 @@
 /** @odoo-module **/
 
+// Part of Odoo. See LICENSE file for full copyright and licensing details.
+// This file was modified by SyntaxError on 250527.
+// Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_service/tour_utils";
@@ -194,7 +198,7 @@ registry.category("web_tour.tours").add('project_tour', {
 {
     isActive: ["auto"],
     trigger: ".o_form_button_save",
-    content: markup(_t("You have unsaved changes - no worries! Odoo will automatically save it as you navigate.<br/> You can discard these changes from here or manually save your task.<br/>Let's save it manually.")),
+    content: markup(_t("You have unsaved changes - no worries! The system will automatically save it as you navigate.<br/> You can discard these changes from here or manually save your task.<br/>Let's save it manually.")),
     tooltipPosition: "bottom",
     run: "click",
 },

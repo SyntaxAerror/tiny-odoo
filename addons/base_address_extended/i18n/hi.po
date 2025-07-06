@@ -53,7 +53,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_address_extended.view_city_filter
 #: model_terms:ir.ui.view,arch_db:base_address_extended.view_city_tree
 msgid "City"
-msgstr "शहर"
+msgstr ""
 
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_partner__city_id
@@ -81,7 +81,7 @@ msgstr "द्वारा निर्मित"
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_city__create_date
 msgid "Created on"
-msgstr "इस तारीख को बनाया गया"
+msgstr ""
 
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_city__display_name
@@ -133,12 +133,12 @@ msgstr "आईडी"
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_city__write_uid
 msgid "Last Updated by"
-msgstr "इन्होंने आखिरी बार अपडेट किया"
+msgstr ""
 
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_city__write_date
 msgid "Last Updated on"
-msgstr "आखिरी बार अपडेट हुआ"
+msgstr ""
 
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_city__name
@@ -164,7 +164,7 @@ msgstr ""
 #. module: base_address_extended
 #: model_terms:ir.ui.view,arch_db:base_address_extended.address_street_extended_form
 msgid "Street 2..."
-msgstr "स्ट्रीट 2..."
+msgstr ""
 
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_partner__street_name
@@ -175,7 +175,7 @@ msgstr ""
 #. module: base_address_extended
 #: model_terms:ir.ui.view,arch_db:base_address_extended.address_street_extended_form
 msgid "Street..."
-msgstr "स्ट्रीट..."
+msgstr ""
 
 #. module: base_address_extended
 #: model_terms:ir.ui.view,arch_db:base_address_extended.address_street_extended_form

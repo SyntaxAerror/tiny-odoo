@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Disabled/Removed Powered By Odoo message.
+-->
 <odoo>
     <data>
         <template id="mail_notification_layout" name="Mail: mail notification layout template">
@@ -83,10 +88,10 @@
     </p>
 </div>
 <div t-if="show_footer" style="color: #555555; font-size:11px;">
-    Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email"
-                  t-att-style="'color: ' + (company.email_secondary_color or '#875A7B') + ';'">Odoo</a>
+    <!-- Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email"
+                  t-att-style="'color: ' + (company.email_secondary_color or '#875A7B') + ';'">Odoo</a> -->
     <span id="mail_unfollow">
-        | <a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
+        <!-- | --><a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
     </span>
 </div>
 </div>
@@ -157,10 +162,10 @@
 </td></tr>
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email"
-                      t-att-style="'color: ' + (company.email_secondary_color or '#875A7B') + ';'">Odoo</a>
+        <!-- Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email"
+                      t-att-style="'color: ' + (company.email_secondary_color or '#875A7B') + ';'">Odoo</a> -->
     <span id="mail_unfollow">
-        | <a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
+        <!-- | --> <a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
     </span>
 </td></tr>
 </table>

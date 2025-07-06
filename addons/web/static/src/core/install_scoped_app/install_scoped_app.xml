@@ -1,3 +1,8 @@
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Removed user-facing references to Odoo.
+-->
 <templates>
     <t t-name="web.InstallScopedApp">
         <div class="o_install_scoped_app o_home_menu_background h-100 w-100 d-flex align-items-center justify-content-center user-select-none">
@@ -21,7 +26,7 @@
                                 </t>
                             </Dropdown>
                         </div>
-                        <a class="text-primary text-decoration-none" href="https://odoo.com" alt="Odoo" target="_blank">Odoo S.A.</a>
+                        <!-- <a class="text-primary text-decoration-none" href="https://odoo.com" alt="Odoo" target="_blank">Odoo S.A.</a> -->
                     </div>
                 </div>
                 <button t-if="pwa.isAvailable" class="btn btn-primary btn-lg rounded-5 shadow py-2 px-3" t-on-click="onInstall">Install</button>

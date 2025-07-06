@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
 from datetime import datetime, timedelta
 import logging
 import pytz
@@ -141,7 +143,7 @@ class IrSequence(models.Model):
     number_increment = fields.Integer(string='Step', required=True, default=1,
                                       help="The next number of the sequence will be incremented by this number")
     padding = fields.Integer(string='Sequence Size', required=True, default=0,
-                             help="Odoo will automatically adds some '0' on the left of the "
+                             help="the system will automatically adds some '0' on the left of the "
                                   "'Next Number' to get the required padding size.")
     company_id = fields.Many2one('res.company', string='Company',
                                  default=lambda s: s.env.company)

@@ -1,4 +1,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250630.
+# Changes: Disabled IAP.
 
 import base64
 import fnmatch
@@ -22,7 +24,7 @@ from odoo import api, fields, models, tools, release
 from odoo.addons.website.models.ir_http import sitemap_qs2dom
 from odoo.addons.website.tools import similarity_score, text_from_html, get_base_domain
 from odoo.addons.portal.controllers.portal import pager
-from odoo.addons.iap.tools import iap_tools
+# from odoo.addons.iap.tools import iap_tools
 from odoo.exceptions import AccessError, UserError, ValidationError
 from odoo.http import request
 from odoo.modules.module import get_manifest
@@ -459,10 +461,11 @@ class Website(models.Model):
     # ----------------------------------------------------------
 
     def _api_rpc(self, route, params, endpoint_param_name, default_endpoint, **kwargs):
-        params['version'] = release.version
-        IrConfigParameter = self.env['ir.config_parameter'].sudo()
-        api_endpoint = IrConfigParameter.get_param(endpoint_param_name, default_endpoint)
-        return iap_tools.iap_jsonrpc(api_endpoint + route, params=params, **kwargs)
+        # params['version'] = release.version
+        # IrConfigParameter = self.env['ir.config_parameter'].sudo()
+        # api_endpoint = IrConfigParameter.get_param(endpoint_param_name, default_endpoint)
+        # return iap_tools.iap_jsonrpc(api_endpoint + route, params=params, **kwargs)
+        raise AccessError("IAP JSON RPC has been disabled.")
 
     def _website_api_rpc(self, route, params):
         # For industries, theme suggestions, ...
@@ -1467,7 +1470,7 @@ class Website(models.Model):
                 order = View._order
             views = View.with_context(active_test=False).search(domain, order=order)
             if views:
-                view = views.filter_duplicate()[:1]
+                view = views.filter_duplicate()
             else:
                 # we handle the raise below
                 view = self.env.ref(view_id, raise_if_not_found=False)

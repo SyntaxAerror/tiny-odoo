@@ -1,5 +1,11 @@
 /** @odoo-module **/
 
+/**
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+**/
+
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { checkFileSize, DEFAULT_MAX_FILE_SIZE } from "@web/core/utils/files";
@@ -806,7 +812,7 @@ export class BaseImportModel {
             },
             date_format: {
                 help: _t(
-                    "Use YYYY to represent the year, MM for the month and DD for the day. Include separators such as a dot, forward slash or dash. You can use a custom format in addition to the suggestions provided. Leave empty to let Odoo guess the format (recommended)"
+                    "Use YYYY to represent the year, MM for the month and DD for the day. Include separators such as a dot, forward slash or dash. You can use a custom format in addition to the suggestions provided. Leave empty to let the system guess the format (recommended)"
                 ),
                 label: _t("Date Format:"),
                 type: "input",
@@ -822,7 +828,7 @@ export class BaseImportModel {
             },
             datetime_format: {
                 help: _t(
-                    "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h system. You can use a custom format in addition to the suggestions provided. Leave empty to let Odoo guess the format (recommended)"
+                    "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h system. You can use a custom format in addition to the suggestions provided. Leave empty to let the system guess the format (recommended)"
                 ),
                 label: _t("Datetime Format:"),
                 type: "input",

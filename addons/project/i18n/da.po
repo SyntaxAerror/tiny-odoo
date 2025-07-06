@@ -6,20 +6,20 @@
 # Ejner Sønniksen <ejner@vkdata.dk>, 2024
 # Mads Søndergaard, 2024
 # JonathanStein <jstein@image.dk>, 2024
+# Sanne Kristensen <sanne@vkdata.dk>, 2024
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Martin Trigaux, 2024
 # Mads Søndergaard, 2024
 # Sammi Iversen <sammi@vkdata.dk>, 2025
 # Kira Petersen, 2025
-# Sanne Kristensen <sanne@vkdata.dk>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2025\n"
+"Last-Translator: Kira Petersen, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,6 +115,7 @@ msgstr "# Bedømmelser"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_model.js:0
+#: model:ir.model.fields,field_description:project.field_project_milestone__task_count
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__nbr
 msgid "# of Tasks"
 msgstr "Antal opgaver"
@@ -191,7 +192,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/res_partner.py:0
 msgid "%(partner_name)s's Tasks"
-msgstr "%(partner_name)s's opgaver"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -206,7 +207,7 @@ msgstr "%s (kopi)"
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "%s closed tasks"
-msgstr "%s lukkede opgaver"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
@@ -455,12 +456,12 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "<span class=\"fw-normal\"> Tasks</span>"
-msgstr "<span class=\"fw-normal\"> Opgaver</span>"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
-msgstr "<span class=\"o_stat_text\">Blokerede opgaver</span>"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -476,12 +477,12 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text\">Sub-tasks</span>"
-msgstr "<span class=\"o_stat_text\">Underopgaver</span>"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<span class=\"o_stat_text\">Tasks</span>"
-msgstr "<span class=\"o_stat_text\">Opgaver</span>"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -677,7 +678,7 @@ msgstr "Tilføj milepæl"
 #. odoo-javascript
 #: code:addons/project/static/src/components/subtask_kanban_list/subtask_kanban_create/subtask_kanban_create.js:0
 msgid "Add Sub-tasks"
-msgstr "Tilføj underopgaver"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -1111,7 +1112,7 @@ msgstr "Blokeret af"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Blocked Tasks"
-msgstr "Blokerede opgaver"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_action_blocking_tasks
@@ -1224,7 +1225,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task_burndown_chart_report__is_closed__closed
 msgid "Closed tasks"
-msgstr "Lukkede opgaver"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__is_closed
@@ -1731,7 +1732,7 @@ msgstr "Afhængige opgaver"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__depend_on_count
 msgid "Depending on Tasks"
-msgstr "Afhængig af opgaver"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__description
@@ -3987,7 +3988,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Search%(left)s Tasks%(right)s"
-msgstr "Søg efter%(left)s opgaver%(right)s"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__access_token
@@ -4108,7 +4109,7 @@ msgstr "Vis alle poster, hvor den næste aktivitetsdato er før i dag"
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Show closed tasks"
-msgstr "Vis lukkede opgaver"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
@@ -4540,7 +4541,7 @@ msgstr "Opgave faser"
 #: code:addons/project/models/project_task.py:0
 #: model:ir.model.fields,field_description:project.field_project_task__recurring_count
 msgid "Tasks in Recurrence"
-msgstr "Gentagende opgaver"
+msgstr "Gentagende Opgaver"
 
 #. module: project
 #. odoo-javascript
@@ -4870,7 +4871,7 @@ msgstr "Titel"
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 msgid "To Bill"
-msgstr "Til fakturering"
+msgstr ""
 
 #. module: project
 #: model:project.project.stage,name:project.project_project_stage_0
@@ -5163,7 +5164,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_tree
 #: model_terms:ir.ui.view,arch_db:project.view_project
 msgid "View Tasks"
-msgstr "Vis opgaver"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__privacy_visibility
@@ -5389,7 +5390,7 @@ msgstr "Du er blevet tildelt"
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "You have been invited to follow %s"
-msgstr "Du er blevet inviteret til at følge %s"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_invitation_follower

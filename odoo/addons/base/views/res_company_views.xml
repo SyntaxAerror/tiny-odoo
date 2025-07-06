@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
     <data>
         <record id="view_company_form" model="ir.ui.view">
@@ -121,7 +126,7 @@
               <p class="o_view_nocontent_smiling_face">
                 Create a new company
               </p><p>
-                Create and manage the companies that will be managed by Odoo from here. Shops or subsidiaries can be created and maintained from here.
+                Create and manage the companies that will be managed by the system from here. Shops or subsidiaries can be created and maintained from here.
               </p>
             </field>
         </record>

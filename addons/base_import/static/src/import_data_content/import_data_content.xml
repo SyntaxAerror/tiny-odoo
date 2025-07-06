@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <templates xml:space="preserve">
     <t t-name="ImportDataContent">
         <div class="o_import_data_content flex-grow-1 overflow-auto border-start">
@@ -16,7 +21,7 @@
             <div t-if="!props.options.has_headers" class="border-bottom p-2">
                 <p class="alert alert-info mb-0">
                     If the file contains
-                    the column names, Odoo can try auto-detecting the
+                    the column names, the system can try auto-detecting the
                     field corresponding to the column. This makes imports
                     simpler especially when the file has many columns.
                 </p>
@@ -34,7 +39,7 @@
                 <thead>
                     <tr class="border-bottom">
                         <th scope="col">File Column</th>
-                        <th scope="col">Odoo Field</th>
+                        <th scope="col">Field</th>
                         <th scope="col">Comments</th>
                     </tr>
                 </thead>

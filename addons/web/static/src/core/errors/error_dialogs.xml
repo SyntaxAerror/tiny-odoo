@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Removed user-facing references to Odoo.
+-->
 <templates xml:space="preserve">
 
     <t t-name="web.WarningDialog">
@@ -38,10 +43,10 @@
     </t>
 
     <t t-name="web.SessionExpiredDialog">
-        <Dialog title.translate="Odoo Session Expired" size="'xl'" contentClass="'o_error_dialog'">
+        <Dialog title.translate="Session Expired" size="'xl'" contentClass="'o_error_dialog'">
             <div role="alert">
                 <p class="text-prewrap">
-                    Your Odoo session expired. The current page is about to be refreshed.
+                    Your session expired. The current page is about to be refreshed.
                 </p>
             </div>
             <t t-set-slot="footer">

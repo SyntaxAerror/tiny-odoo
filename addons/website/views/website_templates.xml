@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
 
 <template id="submenu" name="Submenu">
@@ -1971,8 +1976,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-9">
-                            <h3>50,000+ companies run Odoo to grow their businesses.</h3>
-                            <p class="lead">Join us and make your company a better place.</p>
+                            <!-- <h3>50,000+ companies run Odoo to grow their businesses.</h3>
+                            <p class="lead">Join us and make your company a better place.</p> -->
                         </div>
                         <div class="col-lg-3">
                             <a href="/contactus" class="btn btn-primary btn-lg btn-block">Start Button</a>
@@ -2341,13 +2346,13 @@
 </record>
 
 <!-- Error and special pages -->
-<template id="website_info" name="Odoo Information">
+<template id="website_info" name="System Information">
     <t t-call="website.layout">
         <div id="wrap" class="o_website_info"/>
     </t>
 </template>
 
-<template id="show_website_info" inherit_id="website.website_info" name="Show Odoo Information">
+<template id="show_website_info" inherit_id="website.website_info" name="Show System Information">
     <xpath expr="//div[@id='wrap']" position="inside">
         <div class="oe_structure">
             <section class="container">

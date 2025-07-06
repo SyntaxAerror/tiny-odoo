@@ -414,11 +414,7 @@ function isNodeHidden(node) {
 
 /** @type {NodeFilter} */
 function isNodeInteractive(node) {
-    return (
-        getStyle(node).pointerEvents !== "none" &&
-        !node.closest?.("[inert]") &&
-        !getParentFrame(node)?.inert
-    );
+    return getStyle(node).pointerEvents !== "none";
 }
 
 /**
@@ -1082,8 +1078,12 @@ const customPseudoClasses = new Map();
 
 customPseudoClasses
     .set("contains", makePatternBasedPseudoClass("contains", getNodeText))
-    .set("displayed", () => isNodeDisplayed)
-    .set("empty", () => isEmpty)
+    .set("displayed", () => {
+        return isNodeDisplayed;
+    })
+    .set("empty", () => {
+        return isEmpty;
+    })
     .set("eq", (strIndex) => {
         const index = $parseInt(strIndex);
         if (!$isInteger(index)) {
@@ -1091,21 +1091,49 @@ customPseudoClasses
         }
         return index;
     })
-    .set("first", () => 0)
-    .set("focusable", () => isNodeFocusable)
-    .set("has", (selector) => isNodeHaving.bind(null, selector))
-    .set("hidden", () => isNodeHidden)
-    .set("iframe", () => getNodeIframe)
-    .set("interactive", () => isNodeInteractive)
-    .set("last", () => -1)
-    .set("not", (selector) => isNodeNotMatching.bind(null, selector))
-    .set("only", () => isOnlyNode)
-    .set("scrollable", (axis) => isNodeScrollable.bind(null, axis))
-    .set("selected", () => isNodeSelected)
-    .set("shadow", () => getNodeShadowRoot)
+    .set("first", () => {
+        return 0;
+    })
+    .set("focusable", () => {
+        return isNodeFocusable;
+    })
+    .set("has", (selector) => {
+        return isNodeHaving.bind(null, selector);
+    })
+    .set("hidden", () => {
+        return isNodeHidden;
+    })
+    .set("iframe", () => {
+        return getNodeIframe;
+    })
+    .set("interactive", () => {
+        return isNodeInteractive;
+    })
+    .set("last", () => {
+        return -1;
+    })
+    .set("not", (selector) => {
+        return isNodeNotMatching.bind(null, selector);
+    })
+    .set("only", () => {
+        return isOnlyNode;
+    })
+    .set("scrollable", (axis) => {
+        return isNodeScrollable.bind(null, axis);
+    })
+    .set("selected", () => {
+        return isNodeSelected;
+    })
+    .set("shadow", () => {
+        return getNodeShadowRoot;
+    })
     .set("value", makePatternBasedPseudoClass("value", getNodeValue))
-    .set("viewPort", () => isNodeInViewPort)
-    .set("visible", () => isNodeVisible);
+    .set("viewPort", () => {
+        return isNodeInViewPort;
+    })
+    .set("visible", () => {
+        return isNodeVisible;
+    });
 
 const rCustomPseudoClass = compilePseudoClassRegex();
 

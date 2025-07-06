@@ -6,7 +6,6 @@ import {
     MockServer,
     MockServerError,
     models,
-    onRpc,
     serverState,
     unmakeKwArgs,
 } from "@web/../tests/web_test_helpers";
@@ -14,7 +13,6 @@ import { serializeDateTime } from "@web/core/l10n/dates";
 import { registry } from "@web/core/registry";
 import { groupBy } from "@web/core/utils/arrays";
 
-const mockRpcRegistry = registry.category("mail.mock_rpc");
 export const DISCUSS_ACTION_ID = 104;
 
 /**
@@ -78,7 +76,7 @@ const onRpcAfterGlobal = { cb: (route, args) => {} };
 registry.category("mail.on_rpc_before_global").add(true, onRpcBeforeGlobal);
 registry.category("mail.on_rpc_after_global").add(true, onRpcAfterGlobal);
 export function registerRoute(route, handler) {
-    async function beforeCallableHandler(request) {
+    const beforeCallableHandler = async function (request) {
         let args;
         try {
             args = await parseRequestParams(request);
@@ -99,9 +97,8 @@ export function registerRoute(route, handler) {
             return res;
         }
         return response;
-    }
-    mockRpcRegistry.add(route, beforeCallableHandler);
-    onRpc(route, beforeCallableHandler);
+    };
+    registry.category("mock_rpc").add(route, beforeCallableHandler);
 }
 
 // RPC handlers

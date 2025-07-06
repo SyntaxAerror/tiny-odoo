@@ -11,6 +11,10 @@ export class HTMLElementLoadingError extends Error {
     }
 }
 
+// Part of Odoo. See LICENSE file for full copyright and licensing details.
+// This file was modified by SyntaxError on 250527.
+// Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+
 /**
  * Uncaught Errors have 4 properties:
  * - name: technical name of the error (UncaughtError, ...)
@@ -113,7 +117,7 @@ export const errorService = {
             if (isRedactedError) {
                 uncaughtError = new ThirdPartyScriptError();
                 uncaughtError.traceback =
-                    `An error whose details cannot be accessed by the Odoo framework has occurred.\n` +
+                    `An error whose details cannot be accessed by the system framework has occurred.\n` +
                     `The error probably originates from a JavaScript file served from a different origin.\n` +
                     `The full error is available in the browser console.`;
             } else {

@@ -6519,17 +6519,17 @@ msgstr ""
 #. module: spreadsheet
 #: model:ir.model.fields,field_description:spreadsheet.field_spreadsheet_mixin__spreadsheet_data
 msgid "Spreadsheet Data"
-msgstr "Δεδομένα Υπολογιστικού Φύλλου"
+msgstr ""
 
 #. module: spreadsheet
 #: model:ir.model.fields,field_description:spreadsheet.field_spreadsheet_mixin__spreadsheet_file_name
 msgid "Spreadsheet File Name"
-msgstr "Όνομα Αρχείου Υπολογιστικού Φύλλου"
+msgstr ""
 
 #. module: spreadsheet
 #: model:ir.model.fields,field_description:spreadsheet.field_spreadsheet_mixin__spreadsheet_binary_data
 msgid "Spreadsheet file"
-msgstr "Αρχείο Υπολογιστικού Φύλλου"
+msgstr ""
 
 #. module: spreadsheet
 #: model:ir.model,name:spreadsheet.model_spreadsheet_mixin

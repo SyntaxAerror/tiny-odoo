@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Disabled/Removed Powered By Odoo message.
+-->
 <odoo>
 
     <!-- Call this template instead of "web.assets_tests" to have the proper conditional check -->
@@ -87,7 +92,7 @@
     </template>
 
     <template id="brand_promotion_message" name="Brand Promotion Message">
-        <t t-set="odoo_logo">
+        <!-- <t t-set="odoo_logo">
             <a target="_blank"
                 t-attf-href="http://www.odoo.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
                 class="badge text-bg-light">
@@ -98,7 +103,7 @@
             </a>
         </t>
         <t t-set="final_message">Powered by %s%s</t>
-        <t t-out="final_message % (odoo_logo, _message and ('- ' + _message) or '')"/>
+        <t t-out="final_message % (odoo_logo, _message and ('- ' + _message) or '')"/> -->
     </template>
     <template id="brand_promotion" name="Brand Promotion">
         <div class="o_brand_promotion">
@@ -127,7 +132,7 @@
                             <t t-if="not disable_database_manager">
                                 <a class="border-end pe-2 me-1" href="/web/database/manager">Manage Databases</a>
                             </t>
-                            <a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Odoo</span></a>
+                            <!-- <a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Odoo</span></a> -->
                         </div>
                     </div>
                 </div>
@@ -362,9 +367,9 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </t>
             <div class="card">
-                <img t-attf-src="data:image/png;base64,{{odoo_icon}}" alt="Odoo logo"/>
+                <!-- <img t-attf-src="data:image/png;base64,{{odoo_icon}}" alt="Odoo logo"/> -->
                 <h1>You are offline</h1>
-                <p>Check your network connection and come back here. Odoo will load as soon as you're back online.</p>
+                <p>Check your network connection and come back here. The system will load as soon as you're back online.</p>
                 <button onclick="location.reload()">Check again</button>
             </div>
         </t>

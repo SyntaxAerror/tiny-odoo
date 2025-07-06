@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo.
+-->
 <odoo>
     <data>
 
@@ -447,8 +452,6 @@
             <field name="help" type="html">
               <p class="o_view_nocontent_smiling_face">
                 Create a Contact in your address book
-              </p><p>
-                Odoo helps you track all activities related to your contacts.
               </p>
             </field>
         </record>
@@ -481,8 +484,6 @@
             <field name="help" type="html">
               <p class="o_view_nocontent_smiling_face">
                 Create a new customer in your address book
-              </p><p>
-                Odoo helps you easily track all activities related to a customer.
               </p>
             </field>
         </record>
@@ -515,8 +516,6 @@
             <field name="help" type="html">
               <p class="o_view_nocontent_smiling_face">
                 Create a new vendor in your address book
-              </p><p>
-                Odoo helps you easily track all activities related to a vendor.
               </p>
             </field>
         </record>

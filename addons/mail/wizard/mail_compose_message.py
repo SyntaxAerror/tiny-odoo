@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo.
 
 import ast
 import base64
@@ -166,7 +168,7 @@ class MailComposer(models.TransientModel):
     auto_delete = fields.Boolean(
         'Delete Emails',
         compute="_compute_auto_delete", readonly=False, store=True, compute_sudo=False,
-        help='This option permanently removes any track of email after it\'s been sent, including from the Technical menu in the Settings, in order to preserve storage space of your Odoo database.')
+        help='This option permanently removes any track of email after it\'s been sent, including from the Technical menu in the Settings, in order to preserve storage space of your database.')
     auto_delete_keep_log = fields.Boolean(
         'Keep Message Copy',
         compute="_compute_auto_delete_keep_log", readonly=False, store=True,

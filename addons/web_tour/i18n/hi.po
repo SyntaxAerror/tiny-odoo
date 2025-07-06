@@ -60,7 +60,7 @@ msgstr "द्वारा निर्मित"
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__create_date
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__create_date
 msgid "Created on"
-msgstr "इस तारीख को बनाया गया"
+msgstr ""
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__custom
@@ -105,13 +105,13 @@ msgstr "आईडी"
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__write_uid
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__write_uid
 msgid "Last Updated by"
-msgstr "इन्होंने आखिरी बार अपडेट किया"
+msgstr ""
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__write_date
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__write_date
 msgid "Last Updated on"
-msgstr "आखिरी बार अपडेट हुआ"
+msgstr ""
 
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_list
@@ -152,7 +152,7 @@ msgstr ""
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 #: code:addons/web_tour/static/src/views/tour_controller.xml:0
 msgid "Record"
-msgstr "रिकॉर्ड करें"
+msgstr ""
 
 #. module: web_tour
 #. odoo-javascript

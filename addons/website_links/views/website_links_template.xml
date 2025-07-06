@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
         <template id="create_shorten_url">
             <div class="o_website_links_create_tracked_url">
@@ -66,7 +71,7 @@
 
                         <div class="offset-md-1 col-md-4 d-none d-md-block">
                             <p class="text-muted text-justify">Share this page with a <strong>short link</strong> that includes <strong>analytics trackers</strong>.</p>
-                            <p class="text-muted text-justify">Those trackers can be used in Google Analytics to track clicks and visitors, or in Odoo reports to track opportunities and related revenues.</p>
+                            <p class="text-muted text-justify">Those trackers can be used in Google Analytics to track clicks and visitors, or in system reports to track opportunities and related revenues.</p>
                             <a target="_blank" href="https://www.odoo.com/documentation/18.0/applications/websites/website/reporting/link_tracker.html">Read More</a>
                         </div>
                     </div>

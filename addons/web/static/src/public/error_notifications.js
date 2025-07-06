@@ -1,3 +1,7 @@
+// Part of Odoo. See LICENSE file for full copyright and licensing details.
+// This file was modified by SyntaxError on 250527.
+// Changes: Removed user-facing references to Odoo.
+
 // This module makes it so that some errors only display a notification instead of an error dialog
 
 import { registry } from "@web/core/registry";
@@ -13,8 +17,8 @@ odooExceptionTitleMap.forEach((title, exceptionName) => {
 });
 
 const sessionExpired = {
-    title: _t("Odoo Session Expired"),
-    message: _t("Your Odoo session expired. The current page is about to be refreshed."),
+    title: _t("Session Expired"),
+    message: _t("Your session expired. The current page is about to be refreshed."),
     buttons: [
         {
             text: _t("Ok"),

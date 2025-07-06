@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
 from contextlib import closing
 from collections import OrderedDict
 from lxml import etree
@@ -620,7 +624,7 @@ css_error_message {
             if '.' not in ref and line not in imports and not ref.startswith(('.', '/', '~')):
                 imports.append(line)
                 return line
-            msg = "Local import '%s' is forbidden for security reasons. Please remove all @import {your_file} imports in your custom files. In Odoo you have to import all files in the assets, and not through the @import statement." % ref
+            msg = "Local import '%s' is forbidden for security reasons. Please remove all @import {your_file} imports in your custom files. In this system you have to import all files in the assets, and not through the @import statement." % ref
             _logger.warning(msg)
             self.css_errors.append(msg)
             return ''

@@ -106,7 +106,6 @@ const {
     PromiseRejectionEvent,
     Reflect: { ownKeys: $ownKeys },
     RegExp,
-    requestAnimationFrame,
     Set,
     setTimeout,
     String,
@@ -183,17 +182,6 @@ function resolve(value) {
     } else {
         return value;
     }
-}
-
-/**
- * Useful to deal with symbols as primitives
- * @param {unknown} a
- * @param {unknown} b
- */
-function stringSort(a, b) {
-    const strA = String(a).toLowerCase();
-    const strB = String(b).toLowerCase();
-    return strA > strB ? 1 : strA < strB ? -1 : 0;
 }
 
 /**
@@ -470,15 +458,10 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
     // Non-iterable objects
     const proto = !constructor.name || constructor.name === "Object" ? "" : `${constructor.name} `;
     const content = $ownKeys(value)
-        .sort(stringSort)
+        .sort()
         .map(
             (key) =>
-                `${startIndent}${String(key)}: ${_formatTechnical(
-                    value[key],
-                    depth + 1,
-                    true,
-                    cache
-                )},\n`
+                `${startIndent}${key}: ${_formatTechnical(value[key], depth + 1, true, cache)},\n`
         );
     return `${baseIndent}${proto}{${content.length ? `\n${content.join("")}${endIndent}` : ""}}`;
 }
@@ -1204,11 +1187,7 @@ export function lookup(parsedQuery, items, property = "key") {
             }
         }
         if (isPartial) {
-            result.sort(
-                (a, b) =>
-                    fuzzyScoreMap[b[property].toLowerCase()] -
-                    fuzzyScoreMap[a[property].toLowerCase()]
-            );
+            result.sort((a, b) => fuzzyScoreMap[b[property]] - fuzzyScoreMap[a[property]]);
         }
         items = result;
     }
@@ -1452,23 +1431,6 @@ export function stringToNumber(string) {
         result += string.charCodeAt(i);
     }
     return $parseFloat(result);
-}
-
-/**
- * @template {(...args: any[]) => any} T
- * @param {T} fn
- * @returns {T}
- */
-export function throttle(fn) {
-    let canRun = true;
-    return function throttled(...args) {
-        if (!canRun) {
-            return;
-        }
-        canRun = false;
-        requestAnimationFrame(() => (canRun = true));
-        return fn(...args);
-    };
 }
 
 /**

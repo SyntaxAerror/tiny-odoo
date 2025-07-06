@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Disabled/Removed openerp provider.
+-->
 <odoo>
     <data noupdate="1">
-        <record id="provider_openerp" model="auth.oauth.provider">
+        <!-- <record id="provider_openerp" model="auth.oauth.provider">
             <field name="name">Odoo.com Accounts</field>
             <field name="auth_endpoint">https://accounts.odoo.com/oauth2/auth</field>
             <field name="scope">userinfo</field>
@@ -9,7 +14,7 @@
             <field name="css_class">fa fa-fw o_custom_icon</field>
             <field name="body">Log in with Odoo.com</field>
             <field name="enabled" eval="True"/>
-        </record>
+        </record> -->
         <record id="provider_facebook" model="auth.oauth.provider">
             <field name="name">Facebook Graph</field>
             <field name="auth_endpoint">https://www.facebook.com/dialog/oauth</field>

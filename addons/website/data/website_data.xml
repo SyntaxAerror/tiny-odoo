@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+    This file was modified by SyntaxError on 250630.
+    Changes: Disabled website.configurator.feature records for Events, Shop Career, eLearning.
+-->
 <odoo>
     <!-- Group multi website -->
     <record id="group_multi_website" model="res.groups">
@@ -212,7 +219,7 @@
                                             <p>The website will not work properly if you reject or discard those cookies.</p>
                                         </td>
                                         <td>
-                                            session_id (Odoo)<br/>
+                                            session_id<br/>
                                         </td>
                                     </tr>
                                     <tr>
@@ -224,7 +231,7 @@
                                             <p>Your experience may be degraded if you discard those cookies, but the website will still work.</p>
                                         </td>
                                         <td>
-                                            frontend_lang (Odoo)
+                                            frontend_lang
                                         </td>
                                     </tr>
                                     <tr>
@@ -237,10 +244,10 @@
                                             <p>We may not be able to provide the best service to you if you reject those cookies, but the website will work.</p>
                                         </td>
                                         <td>
-                                            im_livechat_previous_operator (Odoo)<br/>
-                                            utm_campaign (Odoo)<br/>
-                                            utm_source (Odoo)<br/>
-                                            utm_medium (Odoo)
+                                            im_livechat_previous_operator<br/>
+                                            utm_campaign<br/>
+                                            utm_source<br/>
+                                            utm_medium
                                         </td>
                                     </tr>
                                     <tr>
@@ -425,14 +432,14 @@
         <field name="menu_sequence">45</field>
         <field name="feature_url">/blog</field>
     </record>
-    <record id="feature_module_career" model="website.configurator.feature">
+    <!-- <record id="feature_module_career" model="website.configurator.feature">
         <field name="name">Career</field>
         <field name="description">Publish job offers and let people apply</field>
         <field name="sequence">8</field>
         <field name="module_id" ref="base.module_website_hr_recruitment"/>
         <field name="icon">fa-address-card</field>
-    </record>
-    <record id="feature_module_shop" model="website.configurator.feature">
+    </record> -->
+    <!-- <record id="feature_module_shop" model="website.configurator.feature">
         <field name="name">Shop</field>
         <field name="description">Sell more with an eCommerce</field>
         <field name="sequence">9</field>
@@ -441,8 +448,8 @@
         <field name="icon">fa-shopping-cart</field>
         <field name="menu_sequence">15</field>
         <field name="feature_url">/shop</field>
-    </record>
-    <record id="feature_module_event" model="website.configurator.feature">
+    </record> -->
+    <!-- <record id="feature_module_event" model="website.configurator.feature">
         <field name="name">Events</field>
         <field name="description">Publish on-site and online events</field>
         <field name="sequence">10</field>
@@ -451,7 +458,7 @@
         <field name="icon">fa-ticket</field>
         <field name="menu_sequence">20</field>
         <field name="feature_url">/event</field>
-    </record>
+    </record> -->
     <record id="feature_module_forum" model="website.configurator.feature">
         <field name="name">Forum</field>
         <field name="description">Give visitors the information they need</field>
@@ -467,7 +474,7 @@
         <field name="module_id" ref="base.module_website_livechat"/>
         <field name="icon">fa-comments</field>
     </record>
-    <record id="feature_module_elearning" model="website.configurator.feature">
+    <!-- <record id="feature_module_elearning" model="website.configurator.feature">
         <field name="name">eLearning</field>
         <field name="description">Share knowledge publicly or for a fee</field>
         <field name="sequence">13</field>
@@ -476,7 +483,7 @@
         <field name="icon">fa-graduation-cap</field>
         <field name="menu_sequence">25</field>
         <field name="feature_url">/slides</field>
-    </record>
+    </record> -->
     <record id="feature_module_stores_locator" model="website.configurator.feature">
         <field name="name">Stores Locator</field>
         <field name="description">A map and a listing of your stores</field>

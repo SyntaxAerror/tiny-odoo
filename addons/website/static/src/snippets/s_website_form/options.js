@@ -1677,7 +1677,7 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
             }
         }
         const newInputEl = this.$target[0].querySelector('input');
-        if (newInputEl && dataFillWith) {
+        if (newInputEl) {
             newInputEl.dataset.fillWith = dataFillWith;
         }
     },

@@ -39,9 +39,6 @@ msgid ""
 "                            Work Entries\n"
 "                            </span>"
 msgstr ""
-"<span class=\"o_stat_text\">\n"
-"                            Çalışma Girdileri\n"
-"                            </span>"
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
@@ -127,7 +124,7 @@ msgstr "Ülke Kodu"
 #. module: hr_work_entry
 #: model_terms:ir.actions.act_window,help:hr_work_entry.hr_work_entry_type_action
 msgid "Create a new work entry type"
-msgstr "Yeni bir çalışma girdisi türü oluştur"
+msgstr ""
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__create_uid
@@ -219,7 +216,7 @@ msgstr "İK Puantaj Kaydı Türü"
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__has_work_entries
 msgid "Has Work Entries"
-msgstr "Çalışma Girdileri Var"
+msgstr ""
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__id
@@ -234,8 +231,6 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the work "
 "entry type without removing it."
 msgstr ""
-"Etkin alan 'yanlış' olarak ayarlanırsa, iş girişi türünü kaldırmadan "
-"gizlemenize olanak tanır."
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__write_uid
@@ -343,7 +338,7 @@ msgstr "Aynı kod, birden çok puantaj türüyle ilişkilendirilemez."
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "This work entry is validated. You can't delete it."
-msgstr "Bu çalışma girdisi onaylandı. Silemezsiniz."
+msgstr ""
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
@@ -385,7 +380,7 @@ msgstr "Tanımsız Tür"
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry__external_code
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry_type__external_code
 msgid "Use this code to export your data to a third party"
-msgstr "Verilerinizi üçüncü bir tarafa aktarmak için bu kodu kullanın"
+msgstr ""
 
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__validated
@@ -457,15 +452,12 @@ msgid ""
 "You can't change the Country of this work entry type cause it's currently "
 "used by the system. You need to delete related working entries first."
 msgstr ""
-"Şu anda sistem tarafından kullanılmakta olduğundan bu iş girişi türünün "
-"Ülkesini değiştiremezsiniz. Öncelikle ilgili iş girişlerini silmeniz "
-"gerekir."
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "You can't change the country of this specific work entry type."
-msgstr "Bu belirli çalışma girdisi türünün ülkesini değiştiremezsiniz."
+msgstr ""
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_user_work_entry_employee_user_id_employee_id_unique

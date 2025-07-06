@@ -330,8 +330,6 @@ msgid ""
 ",\n"
 "    <br/><br/>"
 msgstr ""
-",\n"
-"    <br/><br/>"
 
 #. module: mail
 #. odoo-javascript
@@ -769,7 +767,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_plan
 msgid "Activity Plan"
-msgstr "Načrt aktivnosti"
+msgstr ""
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_activity_plan_action
@@ -823,7 +821,7 @@ msgstr "Tipi aktivnosti"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_plan_template
 msgid "Activity plan template"
-msgstr "Predloga načrta aktivnosti"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.mail_activity_plan_action
@@ -1363,7 +1361,7 @@ msgstr "Zadolžen"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_plan_template__responsible_type
 msgid "Assignment"
-msgstr "Naloga"
+msgstr ""
 
 #. module: mail
 #. odoo-python
@@ -2547,7 +2545,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.mail_activity_plan_action
 msgid "Create an Activity Plan"
-msgstr "Ustvarite načrt aktivnosti"
+msgstr ""
 
 #. module: mail
 #. odoo-python
@@ -6115,7 +6113,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_email_missing
 msgid "Missing email"
-msgstr "Manjka e-poštni naslov"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__mail_email_missing
@@ -10743,7 +10741,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/public/welcome_page.xml:0
 msgid "What's your name?"
-msgstr "Kako ti je ime?"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__user_tz

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Removed user-facing references to Odoo and replaced with generic references like "the system" or the base company record's info as applicable.
+-->
 <odoo><data noupdate="1">
 
     <!-- Email layout: encapsulation when sending (not used in backend display) -->
@@ -395,8 +400,8 @@
                                                     <t t-out="preference" />
                                                 </div>
                                                 <div class="by_odoo" style="margin-bottom: 15px;">
-                                                    Sent by <a href="https://www.odoo.com" target="_blank">
-                                                    <span class="odoo_link_text">Odoo</span></a>
+                                                    Sent by <a t-att-href="object.env.ref('base.main_company').website or https://example.com" target="_blank">
+                                                    <span class="odoo_link_text">object.env.ref('base.main_company').name</span></a>
                                                     <t t-if="unsubscribe_token">
                                                         –
                                                         <a t-attf-href="/digest/#{object.id}/unsubscribe?token=#{unsubscribe_token}&amp;user_id=#{user.id}" target="_blank"
@@ -432,10 +437,10 @@
                         <tr>
                             <div id="footer">
                                 <p style="font-weight: bold;" t-esc="company.name" />
-                                <p class="by_odoo" id="powered">
+                                <!-- <p class="by_odoo" id="powered">
                                     Powered by <a href="https://www.odoo.com" target="_blank" class="odoo_link">
                                         <span class="odoo_link_text">Odoo</span></a>
-                                </p>
+                                </p> -->
                             </div>
                         </tr>
                     </tbody>
@@ -454,7 +459,7 @@
     <table>
         <tbody>
             <tr>
-                <td align="right" style="width: 33%;">
+                <!-- <td align="right" style="width: 33%;">
                     <img src="https://www.odoo.com/web/image/38874595-16ef5349/odoo-mobile.png" alt="Odoo Mobile" />
                 </td>
                 <td align="left" style="width: 66%;">
@@ -484,7 +489,7 @@
                             </tr>
                         </tbody>
                     </table>
-                </td>
+                </td> -->
             </tr>
         </tbody>
     </table>

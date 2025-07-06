@@ -3,9 +3,9 @@
 # 	* base_setup
 # 
 # Translators:
+# Lyall Kindmurr, 2024
 # Alin Miclea, 2024
 # Wil Odoo, 2024
-# Larisa_nexterp, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Larisa_nexterp, 2025\n"
+"Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,9 +24,7 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
-msgstr ""
-"<span class=\"fa fa-lg fa-users\" aria-label=\"Număr de utilizatori "
-"activi\"/>"
+msgstr "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -39,7 +37,7 @@ msgid ""
 "                                    </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
-"                                      Utilizator activ\n"
+"                                      Utilizator  activ\n"
 "                                    </span>\n"
 "                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
 "                                        Utilizatori activi\n"
@@ -75,9 +73,9 @@ msgid ""
 "                                        </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
-"                                            Limbă\n"
-"                                        </span>\n"
-"                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+"                                            Limbi\n"
+"                                        </span>                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+"                                        \n"
 "                                            Limbi\n"
 "                                        </span>"
 
@@ -87,8 +85,8 @@ msgid ""
 "<strong>Save</strong> this page and come back here to choose your Geo "
 "Provider."
 msgstr ""
-"<strong>Salvați</strong> această pagină și reveniți aici pentru a alege "
-"furnizorul dvs. Geo."
+"<strong>Salvați</strong> această pagină și reveniți aici pentru a vă alege "
+"furnizorul de servicii geografice."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -113,7 +111,7 @@ msgid ""
 "<strong>Save</strong> this page and come back here to set up the feature."
 msgstr ""
 "<strong>Salvați</strong> această pagină și reveniți aici pentru a configura "
-"funcționalitatea."
+"proprietate."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -126,8 +124,8 @@ msgid ""
 "API Keys allow your users to access Odoo with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
-"Cheile API permit utilizatorilor să acceseze Odoo cu instrumente externe "
-"atunci când autentificarea multi-factor este activată."
+"Cheile API permit utilizatorilor dvs. să acceseze Odoo cu instrumente "
+"externe atunci când autentificarea multi-factor este activată."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -138,12 +136,12 @@ msgstr "Despre"
 #. odoo-python
 #: code:addons/base_setup/controllers/main.py:0
 msgid "Access Denied"
-msgstr "Acces refuzat"
+msgstr "Acces interzis"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Add Languages"
-msgstr "Adaugă limbi"
+msgstr "Adaugă limbă"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -153,40 +151,40 @@ msgstr "Adăugați feedback distractiv și motivați-vă angajații"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_mail_plugin
 msgid "Allow integration with the mail plugins"
-msgstr "Permite integrarea cu pluginurile de email"
+msgstr "Permite integrare cu plug-in de email"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_calendar
 msgid "Allow the users to synchronize their calendar  with Google Calendar"
-msgstr ""
-"Permite utilizatorilor să-și sincronizeze calendarul cu Google Calendar"
+msgstr "Permite utilizatorilor să-și sincronizeze calendarul cu Google"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_microsoft_calendar
 msgid "Allow the users to synchronize their calendar with Outlook Calendar"
 msgstr ""
-"Permite utilizatorilor să-și sincronizeze calendarul cu Outlook Calendar"
+"Permiteți utilizatorilor să își sincronizeze calendarul cu Calendarul "
+"Outlook"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_base_import
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Allow users to import data from CSV/XLS/XLSX/ODS files"
-msgstr "Permite utilizatorilor să importe date din fișiere CSV/XLS/XLSX/ODS"
+msgstr "Permite utilizatorilor sa importe date din fisiere CSV/XLS/XLSX/ODS"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings__group_multi_currency
 msgid "Allows to work in a multi currency environment"
-msgstr "Permite lucrul într-un mediu multi-valută"
+msgstr "Permite lucrul cu mai multe valute"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Automatically enrich your contact base with company data"
-msgstr "Îmbogățiți automat baza de contacte cu datele companiei"
+msgstr "Îmbogățește-ți automat baza de contacte cu datele companiei"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Automatically generate counterpart documents in recipient companies"
-msgstr "Generează automat documente corespondente în companiile destinatare"
+msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -194,9 +192,6 @@ msgid ""
 "By default, new users get highest access rights for all installed apps. If "
 "unchecked, new users will only have basic employee access."
 msgstr ""
-"În mod implicit, noii utilizatori primesc cele mai mari drepturi de acces "
-"pentru toate aplicațiile instalate. Dacă nu este bifat, noii utilizatori vor"
-" avea doar acces de bază de angajat."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -221,17 +216,17 @@ msgstr "Companie"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_country_code
 msgid "Company Country Code"
-msgstr "Cod țară companie"
+msgstr "Cod Țara Companie"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_informations
 msgid "Company Informations"
-msgstr "Informații companie"
+msgstr "Informații despre companie"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_name
 msgid "Company Name"
-msgstr "Nume companie"
+msgstr "Numele companiei"
 
 #. module: base_setup
 #: model:ir.model,name:base_setup.model_res_config_settings
@@ -241,7 +236,7 @@ msgstr "Setări de configurare"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Configure Document Layout"
-msgstr "Configurează aspectul documentului"
+msgstr "Configurare aspect document"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -249,8 +244,8 @@ msgid ""
 "Configure company rules to automatically create SO/PO when one of your "
 "company sells/buys to another of your company."
 msgstr ""
-"Configurați regulile companiei pentru a crea automat SO/PO atunci când una "
-"dintre companiile dvs. vinde/cumpără către/alteia."
+"Configurați regulile companiei pentru a crea automat SO / PO atunci când una"
+" dintre companiile dvs. vinde / cumpără unei alte companii"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -260,7 +255,7 @@ msgstr "Contacte"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__report_footer
 msgid "Custom Report Footer"
-msgstr "Subsol personalizat raport"
+msgstr "Subsol personalizat pentru raport"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__user_default_rights
@@ -277,12 +272,12 @@ msgstr "Șablonul de utilizator implicit nu a fost găsit."
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Document Layout"
-msgstr "Aspect document"
+msgstr "Aspect documentului"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__external_report_layout_id
 msgid "Document Template"
-msgstr "Șablon document"
+msgstr "Document șablon"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -295,8 +290,8 @@ msgid ""
 "Enable the profiling tool. Profiling may impact performance while being "
 "active."
 msgstr ""
-"Activează instrumentul de profilare. Profilarea poate afecta performanța cât"
-" timp este activă."
+"Activați instrumentul de profilare. Crearea de profiluri poate avea un "
+"impact asupra performanței în timp ce sunteți activ."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -306,33 +301,33 @@ msgstr "Găsiți imagini gratuite de înaltă rezoluție de la Unsplash"
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings__report_footer
 msgid "Footer text displayed at the bottom of all reports."
-msgstr "Textul subsol afișat la baza tuturor rapoartelor."
+msgstr "Textul subsol afișat in partea de jos a tuturor rapoartelor."
 
 #. module: base_setup
 #: model:ir.ui.menu,name:base_setup.menu_config
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "General Settings"
-msgstr "Setări generale"
+msgstr "Configurări generale"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_base_geolocalize
 msgid "GeoLocalize"
-msgstr "GeoLocalizare"
+msgstr "GeoLocalize"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geolocate your partners"
-msgstr "Geolocalizați-vă partenerii"
+msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geolocation"
-msgstr "Geolocalizare"
+msgstr "Geolocation"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_product_images
 msgid "Get product pictures using barcode"
-msgstr "Obțineți imagini de produs folosind codul de bare"
+msgstr "Obțineți imaginea produsului folosind cod de bare"
 
 #. module: base_setup
 #: model:ir.model,name:base_setup.model_ir_http
@@ -347,22 +342,22 @@ msgstr "Import & Export"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrate with mail client plugins"
-msgstr "Integrați cu pluginurile clientului de email"
+msgstr "Integrați cu pluginurile clientului de e-mail"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrations"
-msgstr "Integrări"
+msgstr "Integrare"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Inter-Company Transactions"
-msgstr "Tranzacții între companii"
+msgstr "Tranzacții inter-companii"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__is_root_company
 msgid "Is Root Company"
-msgstr "Este compania principală"
+msgstr "Is Root Company"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
@@ -378,7 +373,7 @@ msgstr "Limbi"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Layout"
-msgstr "Aspect"
+msgstr "Layout"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -388,32 +383,32 @@ msgstr "Plugin email"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Manage API Keys"
-msgstr "Gestionează cheile API"
+msgstr "Gestionare Cheițe API"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Manage Companies"
-msgstr "Gestionează companii"
+msgstr "Gestionare companii"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_account_inter_company_rules
 msgid "Manage Inter Company"
-msgstr "Gestionează între companii"
+msgstr "Gestionați Intra-companie"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Manage Languages"
-msgstr "Gestionează limbi"
+msgstr "Gestionare limbi"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Manage Users"
-msgstr "Gestionează utilizatori"
+msgstr "Gestionare utilizatori"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__group_multi_currency
 msgid "Multi-Currencies"
-msgstr "Multi-valută"
+msgstr "Multi-monede"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__active_user_count
@@ -428,7 +423,7 @@ msgstr "Număr de companii"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__language_count
 msgid "Number of Languages"
-msgstr "Număr de limbi"
+msgstr "Număr de Limbi"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -443,7 +438,7 @@ msgstr "Odoo"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
 msgid "Partner Autocomplete"
-msgstr "Completare automată partener"
+msgstr "Completarea automată a partenerului"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -458,7 +453,7 @@ msgstr "Permisiuni"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Preview Document"
-msgstr "Previzualizează documentul"
+msgstr "Previzualizare document"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__profiling_enabled_until
@@ -468,7 +463,7 @@ msgstr "Profilare activată până la"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Progressive Web App"
-msgstr "Aplicație web progresivă"
+msgstr "Aplicații web progresive"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -493,7 +488,7 @@ msgstr "Trimite SMS"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Send texts to your contacts"
-msgstr "Trimiteți mesaje contactelor dvs."
+msgstr "Trimiteți mesaje către contactele dvs."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -508,7 +503,7 @@ msgstr "Setări"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__show_effect
 msgid "Show Effect"
-msgstr "Afișează efectul"
+msgstr "Afișare Efect"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings__company_country_code
@@ -517,7 +512,7 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 "Codul ISO al țării din două caractere.\n"
-"Puteți folosi acest câmp pentru căutare rapidă."
+"Puteți utiliza acest câmp pentru căutări rapide."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -525,34 +520,33 @@ msgid ""
 "This name will be used for the application when Odoo is installed through "
 "the browser."
 msgstr ""
-"Acest nume va fi folosit pentru aplicație atunci când Odoo este instalat "
+"Acest nume va fi utilizat pentru aplicație atunci când Odoo este instalat "
 "prin browser."
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
 msgid "Unsplash Image Library"
-msgstr "Biblioteca de imagini Unsplash"
+msgstr "Librăria de imagini Unsplash"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Update Info"
-msgstr "Actualizează informațiile"
+msgstr "Actualizare informații"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use LDAP credentials to log in"
-msgstr "Folosește credențiale LDAP pentru autentificare"
+msgstr "Folosiți credențiale LDAP pentru logare"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use external accounts to log in (Google, Facebook, etc.)"
-msgstr ""
-"Folosește conturi externe pentru autentificare (Google, Facebook etc.)"
+msgstr "Utilizați conturi externe pentru a vă conecta (Google, Facebook etc.)"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_oauth
 msgid "Use external authentication providers (OAuth)"
-msgstr "Folosește furnizori externi de autentificare (OAuth)"
+msgstr "Folosiți moduri de autentificare externă, (Google, Facebook, ...)"
 
 #. module: base_setup
 #: model:ir.model,name:base_setup.model_res_users
@@ -582,17 +576,9 @@ msgid ""
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Când completezi agenda de adrese, Odoo oferă o listă de companii potrivite. "
-"La selectarea unui element, datele și sigla companiei sunt completate "
-"automat."
-
-#. module: base_setup
-#. odoo-python
-#: code:addons/base_setup/models/res_users.py:0
-msgid "You have to install the Discuss application to use this feature."
-msgstr ""
-"Trebuie să instalați aplicația Discuss pentru a folosi această "
-"funcționalitate."
+"Când completați agenda dvs. de adrese, Odoo oferă o listă a companiilor "
+"potrivite. La selectarea unui articol, datele companiei și sigla sunt "
+"completate automat."
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha

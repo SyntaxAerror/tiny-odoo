@@ -1,8 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250527.
+    Changes: Removed user-facing references to Odoo and replaced with generic references like "the system" or the base company record's info as applicable.
+    This file was modified by SyntaxError on 250630.
+    Changes: Updated digest_digest_default name field to work around error.
+    This file was modified by SyntaxError on 250705.
+    Changes: Updated digest_digest_default name field to not use eval.
+-->
 <odoo>
     <data noupdate="1">
         <record id="digest_digest_default" model="digest.digest">
-            <field name="name">Your Odoo Periodic Digest</field>
+            <field name="name">Your Periodic Digest</field>
             <field name="periodicity">daily</field>
             <field name="user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="next_run_date" eval="DateTime.now().strftime('%Y-%m-%d')"/>
@@ -36,12 +45,12 @@
             </field>
         </record>
         <record id="digest_tip_digest_2" model="digest.tip">
-            <field name="name">Tip: A calculator in Odoo</field>
+            <field name="name">Tip: Calculator</field>
             <field name="sequence">2300</field>
             <field name="group_id" ref="base.group_user" />
             <field name="tip_description" type="html">
 <div>
-    <p class="tip_title">Tip: A calculator in Odoo</p>
+    <p class="tip_title">Tip: Calculator</p>
     <p class="tip_content">When editing a number, you can use formulae by typing the `=` character. This is useful when computing a margin or a discount on a quotation, sale order or invoice.</p>
     <img src="https://download.odoocdn.com/digests/digest/static/src/img/milk-calculator.gif" width="540" class="illustration_border" />
 </div>

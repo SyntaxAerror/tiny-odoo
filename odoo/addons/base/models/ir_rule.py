@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
 import logging
 
 from odoo import api, fields, models, tools, _
@@ -238,7 +240,7 @@ class IrRule(models.Model):
         if company_related:
             suggested_companies = records_sudo._get_redirect_suggested_company()
             if suggested_companies and len(suggested_companies) != 1:
-                resolution_info += _('\n\nNote: this might be a multi-company issue. Switching company may help - in Odoo, not in real life!')
+                resolution_info += _('\n\nNote: this might be a multi-company issue. Switching company may help - in the system, not in real life!')
             elif suggested_companies and suggested_companies in self.env.user.company_ids:
                 context = {'suggested_company': {'id': suggested_companies.id, 'display_name': suggested_companies.display_name}}
                 resolution_info += _('\n\nThis seems to be a multi-company issue, you might be able to access the record by switching to the company: %s.', suggested_companies.display_name)

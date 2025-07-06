@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
-
+# This file was modified by SyntaxError on 250630.
+# Changes: Removed SMS dependency
 {
     'name': 'Automation Rules',
     'version': '1.0',
@@ -15,7 +16,7 @@ Use automation rules to automatically trigger actions for various screens.
 Sales Team, or an opportunity which still has status pending after 14 days might
 trigger an automatic reminder email.
     """,
-    'depends': ['base', 'digest', 'resource', 'mail', 'sms'],
+    'depends': ['base', 'digest', 'resource', 'mail'],
     'data': [
         'security/ir.model.access.csv',
         'data/base_automation_data.xml',

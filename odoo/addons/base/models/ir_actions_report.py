@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+
 from ast import literal_eval
 from contextlib import ExitStack
 from markupsafe import Markup
@@ -110,7 +113,7 @@ else:
             wkhtmltopdf_dpi_zoom_ratio = True
 
         if config['workers'] == 1:
-            _logger.info('You need to start Odoo with at least two workers to print a pdf version of the reports.')
+            _logger.info('You need to start the system with at least two workers to print a pdf version of the reports.')
             wkhtmltopdf_state = 'workers'
     else:
         _logger.info('Wkhtmltopdf seems to be broken.')
@@ -130,7 +133,7 @@ else:
     if match:
         wkhtmltoimage_version = parse_version(match.group(0).decode('ascii'))
         if config['workers'] == 1:
-            _logger.info('You need to start Odoo with at least two workers to convert images to html.')
+            _logger.info('You need to start the system with at least two workers to convert images to html.')
     else:
         _logger.info('Wkhtmltoimage seems to be broken.')
 
@@ -769,7 +772,7 @@ class IrActionsReport(models.Model):
         return view_obj._render_template(template, values).encode()
 
     def _handle_merge_pdfs_error(self, error=None, error_stream=None):
-        raise UserError(_("Odoo is unable to merge the generated PDFs."))
+        raise UserError(_("The system is unable to merge the generated PDFs."))
 
     @api.model
     def _merge_pdfs(self, streams, handle_error=_handle_merge_pdfs_error):

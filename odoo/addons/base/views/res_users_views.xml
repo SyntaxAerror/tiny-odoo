@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
     <data>
         <record id="change_password_own_form" model="ir.ui.view">
@@ -473,7 +478,7 @@
                             </group>
                             <group string="API Keys">
                                 <div class="text-muted" colspan="2">
-                                    API Keys are used to connect to Odoo from external tools without the need for a password or Two-factor Authentication.
+                                    API Keys are used to connect to the system from external tools without the need for a password or Two-factor Authentication.
                                     <widget name="documentation_link" path="/developer/misc/api/external_api.html#api-keys" lable="Learn more" icon="fa-fw o_button_icon fa-info-circle"/>
                                 </div>
                                 <div colspan="2" invisible="not api_key_ids">

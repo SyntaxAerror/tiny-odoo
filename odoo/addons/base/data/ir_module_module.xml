@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250517.
+    Changes: Disabled/Removed ir.module.module records.
+-->
 <odoo>
     <data>
 
-        <record model="ir.module.module" id="base.module_web_studio">
+        <!-- <record model="ir.module.module" id="base.module_web_studio">
             <field name="name">web_studio</field>
             <field name="shortdesc">Studio</field>
             <field name="sequence">75</field>
@@ -291,6 +296,6 @@
             <field name="author">Odoo S.A.</field>
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/payment_sepa_direct_debit.png</field>
-        </record>
+        </record> -->
     </data>
 </odoo>

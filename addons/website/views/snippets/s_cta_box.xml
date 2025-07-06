@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Disabled user-facing references to Odoo.
+-->
 <odoo>
 
 <template id="s_cta_box" name="Box Call to Action">
@@ -9,8 +14,8 @@
                     <img class="o_card_img rounded-end" src="/web/image/website.s_cta_box_default_image" alt=""/>
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title">50,000+ companies run Odoo<br/>to grow their businesses.</h2>
-                    <p class="card-text">Join us and make your company a better place.<br/><br/></p>
+                    <!-- <h2 class="card-title">50,000+ companies run Odoo<br/>to grow their businesses.</h2>
+                    <p class="card-text">Join us and make your company a better place.<br/><br/></p> -->
                     <a t-att-href="cta_btn_href" class="btn btn-lg btn-secondary">Contact Us</a>
                 </div>
              </div>

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
 
 import binascii
 import contextlib
@@ -803,7 +805,7 @@ class Users(models.Model):
         portal_user_template = self.env.ref('base.template_portal_user_id', False)
         default_user_template = self.env.ref('base.default_user', False)
         if SUPERUSER_ID in self.ids:
-            raise UserError(_('You can not remove the admin user as it is used internally for resources created by Odoo (updates, module installation, ...)'))
+            raise UserError(_('You can not remove the admin user as it is used internally for resources created by the system (updates, module installation, ...)'))
         user_admin = self.env.ref('base.user_admin', raise_if_not_found=False)
         if user_admin and user_admin in self:
             raise UserError(_('You cannot delete the admin user because it is utilized in various places (such as security configurations,...). Instead, archive it.'))

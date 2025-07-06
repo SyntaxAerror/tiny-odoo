@@ -1,0 +1,45 @@
+This project contains code under multiple licenses. See below for details.
+
+This repository contains two major categories of software:
+
+## 1. Odoo Community Edition (LGPLv3)
+--------------------------------------
+This repository also contains a modified copy of the Odoo Community Edition source code, which is licensed under the GNU Lesser General Public License v3.0 (LGPLv3). See:
+https://www.gnu.org/licenses/lgpl-3.0.en.html
+
+The LGPLv3 applies to the following files, directories, and their contents because they are from Odoo Community Edition:
+- `/addons/`
+- `/doc/`
+- `/odoo/`
+- `/.gitignore/`
+- `//COPYRIGHT.odoo`
+- `/LICENSE.odoo/`
+- `/MANIFEST.in/`
+- `/odoo-bin/`
+- `/README.md.odoo/`
+- `/requirements.txt/`
+- `/SECURITY.md.odoo/`
+- `/setup.cfg/`
+- `/setup.py/`
+- All files derived from the original Odoo Community Edition
+
+Any modifications to Odoo Community Edition code made in this repository are also licensed under the LGPLv3,
+as required by the original license.
+
+---
+
+Each directory contains its own LICENSE or notice where applicable for further clarity.
+
+## 2. Other Software
+------------------
+Copyright (c) 2025 SyntaxError
+
+All rights reserved.
+
+All software in this repository is proprietary, with the exception of the following files, directories, and their contents:
+- `/tiny-odoo-tools/`
+- Any other files or directories that are not a part of Odoo Community Edition have their own `LICENSE` and/or `COPYRIGHT` file(s), which take precedence.
+
+No part of this proprietary software may be copied, modified, distributed, or used in any way without prior written permission from the copyright holder.
+
+For inquiries, contact: https://syntaxerror.space

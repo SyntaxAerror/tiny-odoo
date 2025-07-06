@@ -603,9 +603,6 @@ input[type="checkbox"]:checked {
 
 /* Cursor */
 
-.cursor-move {
-    cursor: move;
-}
 .cursor-pointer {
     cursor: pointer;
 }

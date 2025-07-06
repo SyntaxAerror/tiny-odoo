@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo.
 
 import ldap
 import logging
@@ -235,7 +237,7 @@ class CompanyLDAP(models.Model):
             if res[1]:
                 return res[0]
         elif conf['create_user']:
-            _logger.debug("Creating new Odoo user \"%s\" from LDAP" % login)
+            _logger.debug("Creating new user \"%s\" from LDAP" % login)
             values = self._map_ldap_attributes(conf, login, ldap_entry)
             SudoUser = self.env['res.users'].sudo().with_context(no_reset_password=True)
             if conf['user']:

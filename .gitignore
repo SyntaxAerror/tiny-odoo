@@ -1,3 +1,7 @@
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo.
+
 # sphinx build directories
 _build/
 
@@ -49,3 +53,8 @@ package.json
 /man/
 /share/
 /src/
+
+# tiny-odoo
+odoo-source/
+.venv/
+update.patch

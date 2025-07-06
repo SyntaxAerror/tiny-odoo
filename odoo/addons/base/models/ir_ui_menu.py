@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
 
 import base64
 from collections import defaultdict
@@ -32,7 +34,7 @@ class IrUiMenu(models.Model):
     groups_id = fields.Many2many('res.groups', 'ir_ui_menu_group_rel',
                                  'menu_id', 'gid', string='Groups',
                                  help="If you have groups, the visibility of this menu will be based on these groups. "\
-                                      "If this field is empty, Odoo will compute visibility based on the related object's read access.")
+                                      "If this field is empty, the system will compute visibility based on the related object's read access.")
     complete_name = fields.Char(string='Full Path', compute='_compute_complete_name', recursive=True)
     web_icon = fields.Char(string='Web Icon File')
     action = fields.Reference(selection=[('ir.actions.report', 'ir.actions.report'),

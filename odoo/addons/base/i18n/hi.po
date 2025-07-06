@@ -10070,8 +10070,6 @@ msgid ""
 "Account holder name, in case it is different than the name of the Account "
 "Holder"
 msgstr ""
-"खाते के असली मालिक का नाम, अगर वो खाते के दिखाए गए नाम से अलग है, तो उसे भी "
-"लिखें"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting
@@ -13891,7 +13889,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_bank__bic
 #: model:ir.model.fields,field_description:base.field_res_partner_bank__bank_bic
 msgid "Bank Identifier Code"
-msgstr "बैंक आइडेंटिफ़ायर कोड"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_bank_search
@@ -13908,7 +13906,6 @@ msgstr ""
 msgid ""
 "Bank account type: Normal or IBAN. Inferred from the bank account number."
 msgstr ""
-"बैंक अकाउंट टाइप: सामान्य या IBAN. यह आपके खाते के नंबर से पता चल जाता है."
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_res_bank_form
@@ -14100,7 +14097,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_batch_payment
 msgid "Batch Payment"
-msgstr "बैच पेमेंट"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_delivery_stock_picking_batch
@@ -14286,7 +14283,7 @@ msgstr ""
 msgid ""
 "Below text serves as a suggestion and doesn’t engage Odoo S.A. "
 "responsibility."
-msgstr "यह केवल एक सुझाव है, Odoo S.A. इसके लिए जिम्मेदार नहीं है."
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.bj
@@ -14753,7 +14750,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_budget
 msgid "Budget Management"
-msgstr "बजट मैनेजमेंट"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_marketing_automation
@@ -15425,7 +15422,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting_localizations_check
 msgid "Check"
-msgstr "जांच करें"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_check_printing
@@ -15615,7 +15612,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "City"
-msgstr "शहर"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_cleaning_services
@@ -15791,14 +15788,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_partner_category__color
 #: model_terms:ir.ui.view,arch_db:base.res_partner_category_view_search
 msgid "Color"
-msgstr "कलर"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__color
 #: model:ir.model.fields,field_description:base.field_res_partner__color
 #: model:ir.model.fields,field_description:base.field_res_users__color
 msgid "Color Index"
-msgstr "कलर इंडेक्स"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__column1
@@ -16096,7 +16093,7 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_res_config_settings
 msgid "Config Settings"
-msgstr "कॉन्फ़िगरेशन सेटिंग"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.config_wizard_step_view_form
@@ -16494,7 +16491,7 @@ msgstr "देश का कोड"
 #: model_terms:ir.ui.view,arch_db:base.view_country_group_form
 #: model_terms:ir.ui.view,arch_db:base.view_country_group_tree
 msgid "Country Group"
-msgstr "कंट्री ग्रुप"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__country_group_ids
@@ -16504,7 +16501,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__name
 msgid "Country Name"
-msgstr "देश का नाम"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_format_vat_label_mixin
@@ -16640,7 +16637,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
 msgid "Create a new customer in your address book"
-msgstr "अपने एड्रेस बुक में नया ग्राहक बनाएं"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -16905,7 +16902,7 @@ msgstr "द्वारा निर्मित"
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__create_date
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__create_date
 msgid "Created on"
-msgstr "इस तारीख को बनाया गया"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_form
@@ -16991,7 +16988,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_currency_search
 #: model_terms:ir.ui.view,arch_db:base.view_currency_tree
 msgid "Currencies"
-msgstr "करेंसी"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_currency
@@ -17019,7 +17016,7 @@ msgstr ""
 #: model:ir.model,name:base.model_res_currency_rate
 #: model_terms:ir.ui.view,arch_db:base.view_currency_rate_form
 msgid "Currency Rate"
-msgstr "करेंसी रेट"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_currency_rate_search
@@ -17306,7 +17303,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_productivity_dashboard
 msgid "Dashboard"
-msgstr "डैशबोर्ड"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_board
@@ -17413,7 +17410,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_cron__interval_type__days
 msgid "Days"
-msgstr "दिन"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_progress__deactivate
@@ -17453,7 +17450,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_decimal_precision_form
 #: model_terms:ir.ui.view,arch_db:base.view_decimal_precision_tree
 msgid "Decimal Precision"
-msgstr "डेसिमल प्रीसीज़न"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang__decimal_point
@@ -17533,7 +17530,7 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_ir_default
 msgid "Default Values"
-msgstr "डिफ़ॉल्ट वैल्यू"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_embedded_actions__default_view_mode
@@ -17583,7 +17580,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_constraint__definition
 msgid "Definition"
-msgstr "परिभाषा"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_rule__perm_unlink
@@ -17624,7 +17621,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__type__delivery
 msgid "Delivery Address"
-msgstr "डिलीवरी का पता"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery
@@ -17921,7 +17918,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Discard"
-msgstr "खारिज करें"
+msgstr ""
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_1
@@ -18316,7 +18313,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__domain
 #: model:ir.model.fields,field_description:base.field_ir_rule__domain_force
 msgid "Domain"
-msgstr "डोमेन"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__domain
@@ -19845,7 +19842,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_human_resources_expenses
 #: model:ir.module.module,shortdesc:base.module_hr_expense
 msgid "Expenses"
-msgstr "एक्सपेंस "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_payroll_expense
@@ -20252,7 +20249,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_search
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_selection_search
 msgid "Field"
-msgstr "फ़ील्ड"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -21186,7 +21183,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_form
 msgid "General"
-msgstr "सामान्य"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_company_form
@@ -21400,7 +21397,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/res_config.py:0
 msgid "Go to the configuration panel"
-msgstr "कॉन्फ़िगरेशन पैनल पर जाएं"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -21514,7 +21511,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_groups_search
 #: model_terms:ir.ui.view,arch_db:base.view_rule_search
 msgid "Group"
-msgstr "ग्रुप"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.act_report_xml_search_view
@@ -21535,7 +21532,7 @@ msgstr "ग्रुप"
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_search
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "Group By"
-msgstr "इन्होंने ग्रुप किया"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__full_name
@@ -22440,7 +22437,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.module_view_kanban
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Icon"
-msgstr "आइकॉन"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__icon
@@ -22854,7 +22851,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_currency_search
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "Inactive"
-msgstr "निष्क्रि"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_search
@@ -23134,7 +23131,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_model__info
 #: model_terms:ir.ui.view,arch_db:base.module_form
 msgid "Information"
-msgstr "जानकारी"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
@@ -23399,7 +23396,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Internal Notes"
-msgstr "इंटरनल नो"
+msgstr ""
 
 #. module: base
 #: model:res.groups,name:base.group_user
@@ -23709,7 +23706,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_account
 #: model:ir.module.module,shortdesc:base.module_account_accountant
 msgid "Invoicing"
-msgstr "इनवॉइसिंग"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_posbox_homepage
@@ -24334,7 +24331,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_users__lang
 #: model_terms:ir.ui.view,arch_db:base.res_lang_search
 msgid "Language"
-msgstr "भाषा"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_base_language_export
@@ -24483,7 +24480,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__write_uid
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__write_uid
 msgid "Last Updated by"
-msgstr "इन्होंने आखिरी बार अपडेट किया"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_enable_profiling_wizard__write_date
@@ -24567,7 +24564,7 @@ msgstr "इन्होंने आखिरी बार अपडेट क�
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__write_date
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__write_date
 msgid "Last Updated on"
-msgstr "आखिरी बार अपडेट हुआ"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_currency_kanban
@@ -24775,7 +24772,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_logging__level
 #: model_terms:ir.ui.view,arch_db:base.ir_logging_search_view
 msgid "Level"
-msgstr "लेवल"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.lr
@@ -24811,7 +24808,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging__line
 msgid "Line"
-msgstr "लाइन"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -24822,7 +24819,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__line_ids
 msgid "Lines"
-msgstr "लाइऩें"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__link_field_id
@@ -26042,7 +26039,7 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
-msgstr "पार्टनर विज़ॉर्ड मर्ज करें"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
@@ -26058,7 +26055,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_logging__message
 #: model:ir.model.fields,field_description:base.field_ir_model_constraint__message
 msgid "Message"
-msgstr "मैसेज"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.MZN
@@ -26262,7 +26259,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
 #: model_terms:ir.ui.view,arch_db:base.view_model_form
 msgid "Miscellaneous"
-msgstr "विविध"
+msgstr ""
 
 #. module: base
 #: model:res.partner.title,name:base.res_partner_title_miss
@@ -26416,7 +26413,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_model_data__model
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__model
 msgid "Model Name"
-msgstr "मॉडल नाम"
+msgstr ""
 
 #. module: base
 #: model:ir.actions.report,name:base.report_ir_model_overview
@@ -26490,7 +26487,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_model_data_search
 #: model_terms:ir.ui.view,arch_db:base.view_module_filter
 msgid "Module"
-msgstr "मॉड्यूल"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_module_category_form
@@ -27208,7 +27205,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_mail_server__smtp_encryption__none
 msgid "None"
-msgstr "कोई नहीं"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_non_profit_organization
@@ -28329,7 +28326,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
 msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo से आप ग्राहक की सारी जानकारी और काम आसानी से देख सकते हैं."
+msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -28554,7 +28551,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_profile__speedscope_url
 msgid "Open"
-msgstr "ओपेन"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_update
@@ -28861,7 +28858,7 @@ msgstr ""
 #: code:addons/base/models/res_users.py:0
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
 msgid "Other"
-msgstr "अन्य"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__type__other
@@ -29575,7 +29572,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_model_inherit__parent_id
 #: model:ir.model.fields,field_description:base.field_res_company__parent_ids
 msgid "Parent"
-msgstr "पैरेंट"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_embedded_actions__parent_action_id
@@ -29813,7 +29810,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting_payment
 msgid "Payment"
-msgstr "पेमेंट"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_payment
@@ -31065,7 +31062,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_purchase
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Purchase"
-msgstr "परचेज"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition
@@ -31477,7 +31474,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_cron__resource_ref
 #: model_terms:ir.ui.view,arch_db:base.view_model_data_form
 msgid "Record"
-msgstr "रिकॉर्ड करें"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__res_id
@@ -31813,12 +31810,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.act_report_xml_search_view
 #: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
 msgid "Report"
-msgstr "रिपोर्ट करें"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_report
 msgid "Report Action"
-msgstr "रिपोर्ट ऐक्शन"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_report__report_file
@@ -31871,7 +31868,7 @@ msgstr ""
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Reporting"
-msgstr "रिपोर्टिंग"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_ar_reports
@@ -32019,13 +32016,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.res_device_view_kanban
 #: model_terms:ir.ui.view,arch_db:base.res_device_view_tree
 msgid "Revoke"
-msgstr "वापस लें"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_device__revoked
 #: model:ir.model.fields,field_description:base.field_res_device_log__revoked
 msgid "Revoked"
-msgstr "वापस लिया गया"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.OMR
@@ -32122,7 +32119,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__root_id
 msgid "Root"
-msgstr "रूट"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_currency__rounding
@@ -32269,7 +32266,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_iso20022
 msgid "SEPA Credit Transfer / ISO20022"
-msgstr "SEPA क्रेडिट ट्रांसफ़र / ISO20022"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_sepa_direct_debit
@@ -32389,7 +32386,7 @@ msgstr ""
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid "STANDARD TERMS AND CONDITIONS OF SALE"
-msgstr "सेल के लिए मानक नियम और शर्तें"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.bl
@@ -32460,7 +32457,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting_localizations_sale
 msgid "Sale"
-msgstr "सेल"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_test_sale_purchase_edi_ubl
@@ -32626,7 +32623,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Sales"
-msgstr "सेल्स"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -32710,7 +32707,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_users__user_id
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
 msgid "Salesperson"
-msgstr "सेल्सपर्सन"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ws
@@ -32762,7 +32759,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_bank__sanitized_acc_number
 msgid "Sanitized Account Number"
-msgstr "सैनेटाइज़्ड अकाउंट नंबर"
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_subunit_label:base.RWF
@@ -33124,7 +33121,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_bank__allow_out_payment
 msgid "Send Money"
-msgstr "पैसे भेजें"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sms
@@ -33255,11 +33252,6 @@ msgid ""
 "emails are compromised. Once verified, you can activate the ability to send "
 "money."
 msgstr ""
-"गलत अकाउंट नंबर वाले झूठे इनवॉइस भेजना फ़िशिंग का एक आम तरीका है. खुद को "
-"बचाने के लिए, हमेशा नए बैंक अकाउंट नंबर की जांच करें, हो सके तो सीधे वेंडर "
-"को फ़ोन करके. ऐसा इसलिए होता है, क्योंकि अक्सर धोखेबाज उनके ईमेल को हैक कर "
-"लेते हैं. एक बार जब आप नंबर की पुष्टि कर लें, तभी पैसे भेजने की सुविधा चालू "
-"करें."
 
 #. module: base
 #: model:res.currency,currency_subunit_label:base.WST
@@ -33413,7 +33405,7 @@ msgstr ""
 #: model:res.partner.category,name:base.res_partner_category_11
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
 msgid "Services"
-msgstr "सर्विस"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_profile__session
@@ -33897,7 +33889,7 @@ msgstr ""
 #: model:ir.model.fields,help:base.field_res_bank__bic
 #: model:ir.model.fields,help:base.field_res_partner_bank__bank_bic
 msgid "Sometimes called BIC or Swift."
-msgstr "कभी-कभी इसे BIC या Swift भी कहा जाता है."
+msgstr ""
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.TJS
@@ -34526,7 +34518,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "Street 2..."
-msgstr "स्ट्रीट 2..."
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_partner_view_form_private
@@ -34535,7 +34527,7 @@ msgstr "स्ट्रीट 2..."
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "Street..."
-msgstr "स्ट्रीट..."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_bank__street2
@@ -34963,7 +34955,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_partner__vat
 #: model:ir.model.fields,field_description:base.field_res_users__vat
 msgid "Tax ID"
-msgstr "टैक्स आईडी"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__vat_label
@@ -35047,7 +35039,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_report__report_name
 msgid "Template Name"
-msgstr "टेंप्लेट का नाम"
+msgstr ""
 
 #. module: base
 #. odoo-python
@@ -35363,8 +35355,6 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
-"यह आईएसओ देश का दो अक्षर वाला कोड है. \n"
-"इसे आप जल्दी कुछ ढूंढने के लिए इस्तेमाल कर सकते हैं"
 
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_10
@@ -35406,9 +35396,6 @@ msgid ""
 "country format. You can use '/' to indicate that the partner is not subject "
 "to tax."
 msgstr ""
-"यह टैक्स पहचान नंबर हैय आप जो भी नंबर डालेंगे, उसकी जांच देश के नियमों के "
-"हिसाब से होगी. अगर कोई पार्टनर टैक्स नहीं देता, तो आप '/' का निशान लगा सकते "
-"हैं."
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_res_lang_url_code_uniq
@@ -35447,10 +35434,6 @@ msgid ""
 "order to be valid, any derogation must be expressly agreed to in advance in "
 "writing."
 msgstr ""
-"ग्राहक साफ़-साफ़ अपनी खुद की सामान्य शर्तों को मानने से मना करता है, भले ही वे"
-" शर्तें हमारी सेल की शर्तों के बाद ही क्यों न बनाई गई हों. अगर किसी भी नियम "
-"को बदलना है या उसमें छूट देनी है, तो वह बदलाव पहले से लिखकर दिया जाना और उस "
-"पर सहमति होना ज़रूरी है, तभी वह मान्य होगा."
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_res_country_code_uniq
@@ -38244,7 +38227,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__view_id
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "View"
-msgstr "देखें"
+msgstr ""
 
 #. module: base
 #. odoo-python

@@ -11976,92 +11976,92 @@ msgstr "ئەمریکا/داکۆتای_باکوور/بیولا"
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/north_dakota/center
 msgid "America/North_Dakota/Center"
-msgstr "ئەمریکا/داکۆتای_باکوور/سەنتەر"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/north_dakota/new_salem
 msgid "America/North_Dakota/New_Salem"
-msgstr "ئەمریکا/داکۆتای_باکوور/نیو_سالم"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/nuuk
 msgid "America/Nuuk"
-msgstr "ئەمریکا/نوک"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/ojinaga
 msgid "America/Ojinaga"
-msgstr "ئەمریکا/ئۆجیناگا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/panama
 msgid "America/Panama"
-msgstr "ئەمریکا/پەنەما"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/pangnirtung
 msgid "America/Pangnirtung"
-msgstr "ئەمریکا/پانگنیرتونگ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/paramaribo
 msgid "America/Paramaribo"
-msgstr "ئەمریکا/پاراماریبۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/phoenix
 msgid "America/Phoenix"
-msgstr "ئەمریکا/فینیکس"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/port-au-prince
 msgid "America/Port-au-Prince"
-msgstr "ئەمریکا/پۆرت ئۆ پرینس"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/port_of_spain
 msgid "America/Port_of_Spain"
-msgstr "ئەمریکا/بەندەری_ئیسپانیا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/porto_acre
 msgid "America/Porto_Acre"
-msgstr "ئەمریکا/پۆرتۆ_ئەکر"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/porto_velho
 msgid "America/Porto_Velho"
-msgstr "ئەمریکا/پۆرتۆ_ڤێلهۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/puerto_rico
 msgid "America/Puerto_Rico"
-msgstr "ئەمریکا/پورتوگال"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/punta_arenas
 msgid "America/Punta_Arenas"
-msgstr "ئەمریکا/پونتا_ئارێناس"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/rainy_river
 msgid "America/Rainy_River"
-msgstr "ئەمریکا/ڕووباری_باراناوی"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/rankin_inlet
 msgid "America/Rankin_Inlet"
-msgstr "ئەمریکا/ڕانکین_ئینلێت"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/recife
 msgid "America/Recife"
-msgstr "ئەمریکا/ڕێسیفی"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/regina
 msgid "America/Regina"
-msgstr "ئەمریکا/ڕێجینا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/resolute
@@ -12071,152 +12071,152 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/rio_branco
 msgid "America/Rio_Branco"
-msgstr "ئەمریکا/ڕیۆ_برانکۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/rosario
 msgid "America/Rosario"
-msgstr "ئەمریکا/ڕۆزاریۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/santa_isabel
 msgid "America/Santa_Isabel"
-msgstr "ئەمریکا/سانتا_ئیزابێل"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/santarem
 msgid "America/Santarem"
-msgstr "ئەمریکا/سانتارێم"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/santiago
 msgid "America/Santiago"
-msgstr "ئەمریکا/سانتیاگۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/santo_domingo
 msgid "America/Santo_Domingo"
-msgstr "ئەمریکا/سانتۆ_دۆمینگۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/sao_paulo
 msgid "America/Sao_Paulo"
-msgstr "ئەمریکا/ساو_پاولۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/scoresbysund
 msgid "America/Scoresbysund"
-msgstr "ئەمریکا/سکۆرسبایسوند"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/shiprock
 msgid "America/Shiprock"
-msgstr "ئەمریکا/شیپرۆک"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/sitka
 msgid "America/Sitka"
-msgstr "ئەمریکا/سیتکا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/st_barthelemy
 msgid "America/St_Barthelemy"
-msgstr "ئەمریکا/سانت_بارتێلمی"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/st_johns
 msgid "America/St_Johns"
-msgstr "ئەمریکا/سانت_جۆنز"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/st_kitts
 msgid "America/St_Kitts"
-msgstr "ئەمریکا/سانت_کیتس"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/st_lucia
 msgid "America/St_Lucia"
-msgstr "ئەمریکا/سانت_لوسیا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/st_thomas
 msgid "America/St_Thomas"
-msgstr "ئەمریکا/سانت_تۆماس"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/st_vincent
 msgid "America/St_Vincent"
-msgstr "ئەمریکا/سانت_ڤینسێنت"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/swift_current
 msgid "America/Swift_Current"
-msgstr "ئەمریکا/سویفت_کارێنت"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/tegucigalpa
 msgid "America/Tegucigalpa"
-msgstr "ئەمریکا/تێگوسیگالپا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/thule
 msgid "America/Thule"
-msgstr "ئەمریکا/تولێ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/thunder_bay
 msgid "America/Thunder_Bay"
-msgstr "ئەمریکا/تەندەر_بەی"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/tijuana
 msgid "America/Tijuana"
-msgstr "ئەمریکا/تیخوانا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/toronto
 msgid "America/Toronto"
-msgstr "ئەمریکا/تۆرۆنتۆ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/tortola
 msgid "America/Tortola"
-msgstr "ئەمریکا/تۆرتۆلا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/vancouver
 msgid "America/Vancouver"
-msgstr "ئەمریکا/ڤانکۆڤەر"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/virgin
 msgid "America/Virgin"
-msgstr "ئەمریکا/ڤێرجین"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/whitehorse
 msgid "America/Whitehorse"
-msgstr "ئەمریکا/وایت هۆرس"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/winnipeg
 msgid "America/Winnipeg"
-msgstr "ئەمریکا/وینیپێگ"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/yakutat
 msgid "America/Yakutat"
-msgstr "ئەمریکا/یاکوتا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/yellowknife
 msgid "America/Yellowknife"
-msgstr "ئەمریکا/یێڵۆنایف"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.as
 msgid "American Samoa"
-msgstr "سامۆای ئەمریکی"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_currency__rounding
@@ -12233,7 +12233,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_paypal
 msgid "An American payment provider for online payments all over the world."
-msgstr "دابینکەرێکی پارەدانی ئەمریکی بۆ پارەدانی ئۆنلاین لە سەرانسەری جیهان."
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_stripe
@@ -12284,8 +12284,6 @@ msgid ""
 "An option is not supported by the server:\n"
 " %s"
 msgstr ""
-"بژاردەیەک لەلایەن سێرڤەرەوە پشتگیری ناکرێت:\n"
-"%s"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_asiapay
@@ -12311,43 +12309,43 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_mrp_account
 #: model:ir.module.module,summary:base.module_mrp_account_enterprise
 msgid "Analytic accounting in Manufacturing"
-msgstr "ژمێریاری شیکاری لە بواری بەرهەمهێناندا"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_workorder_hr_account
 msgid "Analytic cost of employee work in manufacturing"
-msgstr "تێچووی شیکاری کاری کارمەند لە بواری بەرهەمهێناندا"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ad
 msgid "Andorra"
-msgstr "ئەندۆرا"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ao
 msgid "Angola"
-msgstr "ئەنگۆلا"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ai
 msgid "Anguilla"
-msgstr "ئەنگویلا"
+msgstr ""
 
 #. module: base
 #. odoo-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Another partner already has this barcode"
-msgstr "هاوبەشێکی تر پێشتر ئەم بارکۆدەی هەیە"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.aq
 msgid "Antarctica"
-msgstr "ئەنتارکتیکا"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__antarctica/casey
 msgid "Antarctica/Casey"
-msgstr "ئەنتارکتیکا/کاسی"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__antarctica/davis

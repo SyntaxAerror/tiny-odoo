@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable. -->
 <templates xml:space="preserve">
 
     <t t-name="project.example.generic">
@@ -35,7 +38,7 @@
     </t>
   
     <t t-name="project.example.customerfeedback">
-      Customers propose feedbacks by email; Odoo creates tasks automatically, and you can
+      Customers propose feedbacks by email; The system creates tasks automatically, and you can
       communicate on the task directly. <br/>Your managers decide which feedback is accepted
       <span class="o_status d-inline-block o_status_green"></span> and which feedback is
       moved to the "Refused" column.

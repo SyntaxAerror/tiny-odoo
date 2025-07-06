@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250630.
+    Changes: Disabled header element xpaths.
+-->
 <odoo>
 
 <!-- This template is used to obtain the order and the translations of all
@@ -873,18 +878,18 @@ overridden by modules), because:
 <template id="new_page_template_landing_s_call_to_action" inherit_id="new_page_template_s_call_to_action" primary="True"/>
 
 <template id="new_page_template_landing_2_s_call_to_action" inherit_id="new_page_template_landing_s_call_to_action" primary="True">
-    <xpath expr="//h2|//h3|//h4" position="replace">
+    <!-- <xpath expr="//h2|//h3|//h4" position="replace">
         <h3>Ready to Embrace Your Fitness Journey?</h3>
-    </xpath>
+    </xpath> -->
     <xpath expr="//p" position="replace">
         <p class="lead">Contact us today to embark on your path to a healthier, more vibrant you. Your fitness journey begins here.</p>
     </xpath>
 </template>
 
 <template id="new_page_template_landing_3_s_call_to_action" inherit_id="new_page_template_landing_s_call_to_action" primary="True">
-    <xpath expr="//h2|//h3|//h4" position="replace">
+    <!-- <xpath expr="//h2|//h3|//h4" position="replace">
         <h3>Elevate Your Audio Journey Today</h3>
-    </xpath>
+    </xpath> -->
     <xpath expr="//p" position="replace">
         <p class="lead">Ready to embark on your auditory adventure? Order your EchoTunes Wireless Earbuds today and let the symphony begin.</p>
     </xpath>
@@ -896,9 +901,9 @@ overridden by modules), because:
     <xpath expr="//section" position="attributes">
         <attribute name="data-snippet">s_call_to_action</attribute>
     </xpath>
-    <xpath expr="//h2|//h3|//h4" position="replace">
+    <!-- <xpath expr="//h2|//h3|//h4" position="replace">
         <h3>Ready to bring your digital vision to life?</h3>
-    </xpath>
+    </xpath> -->
     <xpath expr="//p" position="replace">
         <p class="lead">Let's collaborate to create innovative solutions that stand out in the digital landscape. Reach out today and let's build something extraordinary together.</p>
     </xpath>
@@ -910,9 +915,9 @@ overridden by modules), because:
     <xpath expr="//section" position="attributes">
         <attribute name="data-snippet">s_call_to_action</attribute>
     </xpath>
-    <xpath expr="//h2|//h3|//h4" position="replace">
+    <!-- <xpath expr="//h2|//h3|//h4" position="replace">
         <h3>Ready to embark on a journey of digital transformation?</h3>
-    </xpath>
+    </xpath> -->
     <xpath expr="//p" position="replace">
         <p class="lead">Let's turn your vision into reality. Contact us today to set your brand on the path to digital excellence with us.</p>
     </xpath>
@@ -924,9 +929,9 @@ overridden by modules), because:
     <xpath expr="//section" position="attributes">
         <attribute name="data-snippet">s_call_to_action</attribute>
     </xpath>
-    <xpath expr="//h2|//h3|//h4" position="replace">
+    <!-- <xpath expr="//h2|//h3|//h4" position="replace">
         <h3>Book your table today</h3>
-    </xpath>
+    </xpath> -->
     <xpath expr="//p" position="replace">
         <p class="lead">Join us for a remarkable dining experience that blends exquisite flavors with a warm ambiance. </p>
     </xpath>

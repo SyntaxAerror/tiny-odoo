@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
 
 import ast
 import json
@@ -331,7 +333,7 @@ class Lang(models.Model):
             if self.env['res.partner'].with_context(active_test=True).search_count([('lang', 'in', lang_codes)], limit=1):
                 raise UserError(_("Cannot deactivate a language that is currently used by contacts."))
             if self.env['res.users'].with_context(active_test=False).search_count([('lang', 'in', lang_codes)], limit=1):
-                raise UserError(_("You cannot archive the language in which Odoo was setup as it is used by automated processes."))
+                raise UserError(_("You cannot archive the language in which the system was setup as it is used by automated processes."))
             # delete linked ir.default specifying default partner's language
             self.env['ir.default'].discard_values('res.partner', 'lang', lang_codes)
 

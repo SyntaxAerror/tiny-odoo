@@ -1358,7 +1358,7 @@ msgstr ""
 #: code:addons/web/static/src/views/fields/image/image_field.js:0
 #: code:addons/web/static/src/views/fields/signature/signature_field.xml:0
 msgid "Binary file"
-msgstr "Binarna datoteka"
+msgstr ""
 
 #. module: web
 #. odoo-javascript
@@ -5316,25 +5316,25 @@ msgstr "Škrlatna"
 #. odoo-javascript
 #: code:addons/web/static/src/search/utils/dates.js:0
 msgid "Q1"
-msgstr "Q1"
+msgstr ""
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/search/utils/dates.js:0
 msgid "Q2"
-msgstr "Q2"
+msgstr ""
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/search/utils/dates.js:0
 msgid "Q3"
-msgstr "Q3"
+msgstr ""
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/search/utils/dates.js:0
 msgid "Q4"
-msgstr "Q4"
+msgstr ""
 
 #. module: web
 #. odoo-javascript

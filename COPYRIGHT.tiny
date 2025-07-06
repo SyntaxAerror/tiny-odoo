@@ -1,0 +1,43 @@
+Copyright Information
+======================
+
+This repository contains a modified version of the Odoo Community Edition (see `COPYRIGHT.odoo` for upstream notices),
+as well as original code developed by SyntaxError.
+
+---
+
+Modified Odoo Community Edition
+--------------------------------
+The root directory of this project primarily contains code originally from the Odoo Community Edition,
+licensed under the GNU Lesser General Public License v3.0 (LGPLv3).
+
+Original copyright:
+  Copyright (c) 2004-2015 Odoo S.A.
+  and other contributors
+
+Modifications:
+  Copyright (c) 2025 SyntaxError
+
+Per the LGPLv3 that Odoo Community Edition is licensed under, modifications will "carry prominent notices" of the modification and "a relevant date" for that modification.  
+These notices will usually take the form of a comment near the top of the file that inclues who made the modification, when the modification was made, and a brief description of what was modified. When such a comment is impractical or impossible, the notice will be contained in its own dedicated `COPYRIGHT` file (or `COPYRIGHT.additional` file as applicable) in (or as close as possible to) the same directory.  
+These modifications are covered by the LGPLv3, per section 5c of the GNU GENERAL PUBLIC LICENSE (GPLv3) included in the LGPLv3 (`/LICENSE.odoo`).
+
+Files from Odoo Community Edition such as `LICENSE`, `COPYRIGHT`, `README.md`, and `SECURITY.md` have been renamed to have the `.odoo` filename extension to specify that they cover Odoo Community Edition, and are not the overarching `LICENSE`, `COPYRIGHT`, `README.md`, etc. of this project.  
+Files from Odoo Community Edition will sometimes contain a section with a statement like:  
+> "Part of Odoo. See LICENSE file for full copyright and licensing details."
+
+As the original Odoo Community Edition The LICENSE and COPYRIGHT files have been renamed for clarity,
+please refer to `/LICENSE.odoo` and `/COPYRIGHT.odoo` for full upstream license and notices.
+
+---
+
+Other Software
+------------
+The License and Copyright Notice for code that is not a part of Odoo Community Edition or a modification to Odoo Community Edition can be found in the root directory of this project `/`, as `/LICENSE` and `/COPYRIGHT` respectively. Any parts of the project aside from Odoo Community Edition and modifications to Odoo Community Edition that have Licensing/Copyright differences from the licensing found in `/LICENSE` and/or the copyright notice(s) in `/COPYRIGHT`, will be specified in their own dedicated `LICENSE` and/or `COPYRIGHT` file(s) in the relevant directory.
+
+
+---
+
+Contact:  
+  - SyntaxError  
+  - https://syntaxerror.space

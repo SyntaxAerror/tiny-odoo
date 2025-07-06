@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "system" as applicable.
+-->
 <odoo>
 
 <template id="s_instagram_page" name="Instagram Page">
@@ -14,7 +19,7 @@
     <xpath expr="." position="inside">
         <div data-js="InstagramPage" data-selector=".s_instagram_page">
             <we-alert class="mt-2">
-                Your instagram page must be public to be integrated into an Odoo website.
+                Your instagram page must be public to be integrated into a system website.
             </we-alert>
             <we-input string="Instagram Page"
                       class="o_we_large"

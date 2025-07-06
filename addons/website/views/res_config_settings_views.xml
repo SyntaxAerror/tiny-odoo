@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250630.
+    Changes: Disabled Email Marketing checkbox.
+-->
 <odoo>
     <record id="res_config_settings_view_form_inherit_auth_signup" model="ir.ui.view">
         <field name="name">res.config.settings.view.form.inherit.website</field>
@@ -67,9 +72,9 @@
                         <setting id="livechat" string="Livechat" help="Allows your visitors to chat with you">
                             <field name="module_website_livechat"/>
                         </setting>
-                        <setting id="website_marketing_automation" string="Email Marketing" help="Allows to do mass mailing campaigns to contacts">
+                        <!-- <setting id="website_marketing_automation" string="Email Marketing" help="Allows to do mass mailing campaigns to contacts">
                             <field name="module_marketing_automation" widget="upgrade_boolean"/>
-                        </setting>
+                        </setting> -->
                     </block>
 
                     <block title="Privacy" id="website_settings" invisible="not website_id">

@@ -29,12 +29,11 @@ export class BinaryField extends Component {
     }
 
     get fileName() {
-        let value = this.props.record.data[this.props.name];
-        value = value && typeof value === "string" ? value : false;
-        return (this.props.record.data[this.props.fileNameField] || value || "").slice(
-            0,
-            toBase64Length(MAX_FILENAME_SIZE_BYTES)
-        );
+        return (
+            this.props.record.data[this.props.fileNameField] ||
+            this.props.record.data[this.props.name] ||
+            ""
+        ).slice(0, toBase64Length(MAX_FILENAME_SIZE_BYTES));
     }
 
     update({ data, name }) {

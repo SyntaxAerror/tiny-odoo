@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <templates xml:space="preserve">
 
 <t t-name="website.ResourceEditorWarningOverlay">
@@ -7,7 +12,7 @@
             <div class="d-flex flex-row gap-4">
                 <i class="fa fa-warning mb-4 fs-1 text-danger"/>
                 <div>
-                    <h1 class="fs-2 text-dark">Your changes might be lost during future Odoo upgrade.</h1>
+                    <h1 class="fs-2 text-dark">Your changes might be lost during future system upgrades.</h1>
                     <p>If you need to add analytics or marketing tags, inject code in your &lt;head&gt; or &lt;body&gt; instead.</p>
                     <em>Note: To embed code in this specific page, use the "Embed Code" building block</em>
                     <div class="d-flex flex-row gap-3 pt-4">

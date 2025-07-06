@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
         <record id="action_partner_deduplicate" model="ir.actions.act_window">
             <field name="name">Deduplicate Contacts</field>
@@ -21,7 +26,7 @@
                         <p class="oe_grey" invisible="state != 'option'">
                             Select the list of fields used to search for
                             duplicated records. If you select several fields,
-                            Odoo will propose you to merge only those having
+                            the system will propose you to merge only those having
                             all these fields in common. (not one of the fields).
                         </p>
                         <group invisible="state not in ('selection', 'finished') or number_group == 0">

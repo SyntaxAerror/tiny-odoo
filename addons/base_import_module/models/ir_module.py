@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Removed user-facing references to Odoo.
+
 import ast
 import base64
 import json
@@ -483,7 +488,7 @@ class IrModule(models.Model):
             for module in unavailable_modules:
                 description += "- " + module + "\n"
             description += _(
-                "\nYou may need the Enterprise version to install the data module. Please visit "
+                "\nYou may need the Odoo Enterprise version to install the data module. Please visit "
                 "https://www.odoo.com/pricing-plan for more information.\n"
                 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
             )

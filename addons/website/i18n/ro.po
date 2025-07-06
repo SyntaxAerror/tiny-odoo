@@ -3,6 +3,7 @@
 # 	* website
 # 
 # Translators:
+# Larisa_nexterp, 2024
 # Foldi Robert <foldirobert@nexterp.ro>, 2024
 # Dorin Hongu <dhongu@gmail.com>, 2024
 # Hongu Cosmin <cosmin513@gmail.com>, 2024
@@ -11,15 +12,14 @@
 # Corina Calin, 2024
 # Maria Muntean, 2025
 # Wil Odoo, 2025
-# Larisa_nexterp, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"POT-Creation-Date: 2025-06-13 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Larisa_nexterp, 2025\n"
+"Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1806,16 +1806,6 @@ msgstr ""
 msgid ""
 "<span class=\"s_number display-1-fs\">8+</span><br/>\n"
 "                                <span class=\"h5-fs\">Amazing pages</span>"
-msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.s_numbers_charts
-msgid "<span class=\"s_progress_bar_text small d-none\">25%</span>"
-msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.s_numbers_charts
-msgid "<span class=\"s_progress_bar_text small d-none\">80%</span>"
 msgstr ""
 
 #. module: website
@@ -3827,7 +3817,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel_minimal
 msgid "Carousel indicator"
-msgstr "Indicator carusel"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
@@ -4023,7 +4013,7 @@ msgstr "Alege-ți preferatul"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid "Cinnamon Roll"
-msgstr "Ruladă cu scorțișoară"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
@@ -4788,7 +4778,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid "Croissant"
-msgstr "Croissant"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_s_color_blocks_2
@@ -9820,7 +9810,7 @@ msgstr "Mai multe detalii"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers_showcase
 msgid "More details"
-msgstr "Mai multe detalii"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers_showcase
@@ -11132,7 +11122,7 @@ msgstr "Parola"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid "Pastries"
-msgstr "Patiserie"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_asset__path
@@ -12454,7 +12444,7 @@ msgstr "Vezi toate"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_template
 msgid "See all <i class=\"fa fa-long-arrow-right ms-2\"/>"
-msgstr "Vezi tot <i class=\"fa fa-long-arrow-right ms-2\"/>"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_badge
@@ -13036,7 +13026,7 @@ msgstr "Sunet"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid "Sourdough Bread"
-msgstr "Pâine cu maia"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -16159,8 +16149,6 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide both a filter and a template to use.<br/>"
 msgstr ""
-"Fragmentul tău dinamic va fi afișat aici... Acest mesaj este afișat deoarece"
-" nu ai furnizat atât un filtru, cât și un șablon de utilizat.<br/>"
 
 #. module: website
 #. odoo-javascript

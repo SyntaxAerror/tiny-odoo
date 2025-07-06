@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250527.
+# Changes: Updated documentation link.
 
 from odoo.tests import common
 
@@ -93,7 +95,7 @@ class ChatbotCase(common.HttpCase):
             'chatbot_script_id': cls.chatbot_script.id,
         }, {
             'step_type': 'text',
-            'message': 'Please find documentation at https://www.odoo.com/documentation/18.0/',
+            'message': 'Please find documentation at https://www.odoo.com/documentation/master/',
             'triggering_answer_ids': [(4, cls.step_dispatch_documentation.id)],
             'chatbot_script_id': cls.chatbot_script.id,
         }])

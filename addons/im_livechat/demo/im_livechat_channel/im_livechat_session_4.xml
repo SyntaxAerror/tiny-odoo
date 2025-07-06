@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
     <data>
         <record id="livechat_channel_session_4" model="discuss.channel">
@@ -32,7 +37,7 @@
             <field name="model">discuss.channel</field>
             <field name="res_id" ref="im_livechat.livechat_channel_session_4"/>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">Hello Joel Willis, you're at the right place! You can customize Odoo using our Studio application in just a few clicks.</field>
+            <field name="body">Hello Joel Willis, you're at the right place! You can customize the system using our Studio application in just a few clicks.</field>
             <field name="message_type">comment</field>
             <field name="subtype_id" ref="mail.mt_comment"/>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-3, minutes=16)" name="date"/>

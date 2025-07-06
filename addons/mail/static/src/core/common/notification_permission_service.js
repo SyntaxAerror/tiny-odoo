@@ -1,5 +1,9 @@
 import { reactive } from "@odoo/owl";
 
+// Part of Odoo. See LICENSE file for full copyright and licensing details.
+// This file was modified by SyntaxError on 250527.
+// Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+
 import { browser } from "@web/core/browser/browser";
 import {
     isAndroidApp,
@@ -66,12 +70,12 @@ export const notificationPermissionService = {
                         await browser.Notification.requestPermission()
                     );
                     if (state.permission === "denied") {
-                        notification.add(_t("Odoo will not send notifications on this device."), {
+                        notification.add(_t("The system will not send notifications on this device."), {
                             type: "warning",
                             title: _t("Notifications blocked"),
                         });
                     } else if (state.permission === "granted") {
-                        notification.add(_t("Odoo will send notifications on this device!"), {
+                        notification.add(_t("The system will send notifications on this device!"), {
                             type: "success",
                             title: _t("Notifications allowed"),
                         });

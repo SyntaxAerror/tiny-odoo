@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Disabled user-facing references to Odoo.
+-->
 <odoo>
 
 <template id="s_call_to_action" name="Call to Action">
@@ -6,8 +11,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
-                    <h3>50,000+ companies run Odoo to grow their businesses.</h3>
-                    <p class="lead">Join us and make your company a better place.</p>
+                    <!-- <h3>50,000+ companies run Odoo to grow their businesses.</h3>
+                    <p class="lead">Join us and make your company a better place.</p> -->
                 </div>
                 <div class="col-lg-3">
                     <p style="text-align: right;">

@@ -161,14 +161,12 @@ describe(parseUrl(import.meta.url), () => {
         expect(
             formatTechnical({
                 b: 2,
-                [Symbol("s")]: "value",
                 a: true,
             })
         ).toBe(
             `{
   a: true,
   b: 2,
-  Symbol(s): "value",
 }`.trim()
         );
 

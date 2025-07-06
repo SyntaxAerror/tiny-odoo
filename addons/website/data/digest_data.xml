@@ -1,4 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
+<!--
+Part of Odoo. See LICENSE file for full copyright and licensing details.
+This file was modified by SyntaxError on 250527.
+Changes: Removed user-facing references to Odoo and replaced with generic references to "the system" as applicable.
+-->
 <odoo>
     <data>
         <record id="digest_tip_website_0" model="digest.tip">
@@ -32,7 +37,7 @@
             <field name="tip_description" type="html">
 <div>
     <p class="tip_title">Tip: Search Engine Optimization (SEO)</p>
-    <p class="tip_content">To get more visitors, you should target keywords that are often searched in Google. With the built-in SEO tool, once you define a few keywords, Odoo will recommend you the best keywords to target. Then adapt your title and description accordingly to boost your traffic.</p>
+    <p class="tip_content">To get more visitors, you should target keywords that are often searched in Google. With the built-in SEO tool, once you define a few keywords, the system will recommend you the best keywords to target. Then adapt your title and description accordingly to boost your traffic.</p>
     <img src="https://download.odoocdn.com/digests/website/static/src/img/milk-SEO-keywords.gif" width="540" class="illustration_border" />
 </div>
             </field>
