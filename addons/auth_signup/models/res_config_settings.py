@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
-
+# This file was modified by SyntaxError on 250707.
+# Changes: Added email disabled message field.
 from odoo import fields, models
 
 
@@ -10,6 +11,10 @@ class ResConfigSettings(models.TransientModel):
     auth_signup_reset_password = fields.Boolean(
         string='Enable password reset from Login page',
         config_parameter='auth_signup.reset_password')
+    auth_signup_reset_password_email_disabled_message = fields.Text(
+        string='Message to show users when no email servers are available',
+        config_parameter='auth_signup.reset_password_email_disabled_message'
+        default="Please Note: Our email services are currently unavailable. As such, we may be unable to send you your password reset link.")
     auth_signup_uninvited = fields.Selection(
         selection=[
             ('b2b', 'On invitation'),

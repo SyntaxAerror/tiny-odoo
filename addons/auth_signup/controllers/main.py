@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# This file was modified by SyntaxError on 250707.
+# Changes: Supported email disabled message field display as banner on reset password page.
 import logging
 import werkzeug
 from werkzeug.urls import url_encode
@@ -115,6 +117,15 @@ class AuthSignupHome(Home):
             user = request.env['res.users'].sudo().search([('email', '=', qcontext.get('signup_email')), ('state', '!=', 'new')], limit=1)
             if user:
                 return request.redirect('/web/login?%s' % url_encode({'login': user.login, 'redirect': '/web'}))
+
+        email_disabled_message = False
+        if request.env['ir.mail_server'].sudo().search_count([('active', '=', True)]) == 0:
+            email_disabled_message_param_val = request.env['ir.config_parameter'].sudo()get_param('auth_signup.reset_password_email_disabled_message')
+            if isinstance(email_disabled_message_param_val, str) and len(email_disabled_message_param_val) > 0:
+                email_disabled_message = email_disabled_message_param_val
+            else:
+                _logger.warning(f"auth_signup.reset_password_email_disabled_message system parameter was either empty or invalid: {email_disabled_message_param_val}")
+        qcontext['email_disabled_message'] = email_disabled_message
 
         response = request.render('auth_signup.reset_password', qcontext)
         response.headers['X-Frame-Options'] = 'SAMEORIGIN'

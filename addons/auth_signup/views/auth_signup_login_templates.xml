@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo. See LICENSE file for full copyright and licensing details.
+    This file was modified by SyntaxError on 250707.
+    Changes: Added email disabled message banner.
+-->
 <odoo>
         <template id="auth_signup.login" inherit_id="web.login" name="Sign up - Reset Password">
             <xpath expr="//div[hasclass('oe_login_buttons')]" position="after">
@@ -70,8 +75,11 @@
                     <a href="/web/login" class="btn btn-link btn-sm float-start" role="button">Back to Login</a>
                 </div>
 
+                <p class="alert alert-warning" t-if="email_disabled_message" role="alert">
+                    <t t-esc="email_disabled_message"/>
+                </p>
                 <form class="oe_reset_password_form" role="form" method="post" t-if="not message">
-                  <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
 
                     <t t-if="token and not invalid_token">
                         <t t-call="auth_signup.fields">
