@@ -8,7 +8,7 @@ TinyOdoo (or tiny-odoo) (name is a work-in-progress and therefore subject to cha
 
 ### First Time Setup:
 
-Use `/tiny-odoo-tools/setup.sh -cod -s [fedora|debian|rpi]` to get started.
+Use `/tiny-odoo-tools/setup.sh -cd -s [fedora|debian|rpi]` to get started.
 
 ### Quick Rebuild:
 
